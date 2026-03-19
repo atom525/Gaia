@@ -86,8 +86,11 @@ function buildVisGraph(graph: GlobalGraph) {
     label?: string; font?: { size: number; color: string };
   }[] = [];
 
+  const seenNodeIds = new Set<string>();
   for (const n of graph.knowledge_nodes) {
     const nodeId = n.global_canonical_id;
+    if (seenNodeIds.has(nodeId)) continue;
+    seenNodeIds.add(nodeId);
     const meta = (n.metadata ?? {}) as Record<string, unknown>;
     const sourceNames = Array.isArray(meta.source_knowledge_names) ? meta.source_knowledge_names as string[] : [];
     const shortName = sourceNames[0]?.split(".")?.[1] ?? nodeId.slice(4, 16);
@@ -134,6 +137,8 @@ function buildVisGraph(graph: GlobalGraph) {
   }
 
   for (const f of graph.factor_nodes) {
+    if (seenNodeIds.has(f.factor_id)) continue;
+    seenNodeIds.add(f.factor_id);
     const edgeType = f.type;
     const srcPkg = f.source_ref?.package ?? "";
 
