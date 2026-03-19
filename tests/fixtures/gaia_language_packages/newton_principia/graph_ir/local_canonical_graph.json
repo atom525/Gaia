@@ -4,9 +4,7 @@
       "conclusion": "lcn_eb4137719d96ee21",
       "contexts": [],
       "factor_id": "f_9e89ffde48b38b79",
-      "metadata": {
-        "edge_type": "instantiation"
-      },
+      "metadata": null,
       "premises": [
         "lcn_796d71209059ab17"
       ],
@@ -22,9 +20,7 @@
       "conclusion": "lcn_c23cb24b89936169",
       "contexts": [],
       "factor_id": "f_61e1b4812faa60df",
-      "metadata": {
-        "edge_type": "instantiation"
-      },
+      "metadata": null,
       "premises": [
         "lcn_344146af8b1932e5"
       ],
@@ -40,9 +36,7 @@
       "conclusion": "lcn_e346350bf23badcf",
       "contexts": [],
       "factor_id": "f_e81e18bcb27b657a",
-      "metadata": {
-        "edge_type": "instantiation"
-      },
+      "metadata": null,
       "premises": [
         "lcn_cc1deda139d9572d"
       ],
@@ -58,9 +52,7 @@
       "conclusion": "lcn_6e6e3a70f0f405aa",
       "contexts": [],
       "factor_id": "f_5608368a89ff26e2",
-      "metadata": {
-        "edge_type": "instantiation"
-      },
+      "metadata": null,
       "premises": [
         "lcn_dfd698abeb76807b"
       ],
@@ -75,10 +67,8 @@
     {
       "conclusion": "lcn_e7e1b9c7cd9c6b39",
       "contexts": [],
-      "factor_id": "f_a056cedf6d046de2",
-      "metadata": {
-        "edge_type": "deduction"
-      },
+      "factor_id": "f_27610bc559eba5bb",
+      "metadata": null,
       "premises": [
         "lcn_c0c476d32d805f12",
         "lcn_d8fc78dec7817285",
@@ -96,10 +86,8 @@
     {
       "conclusion": "lcn_7a03cda4ec534c19",
       "contexts": [],
-      "factor_id": "f_104daf2c484a37da",
-      "metadata": {
-        "edge_type": "deduction"
-      },
+      "factor_id": "f_8edf59eba0cd54bd",
+      "metadata": null,
       "premises": [
         "lcn_e7e1b9c7cd9c6b39",
         "lcn_c23cb24b89936169"
@@ -113,13 +101,12 @@
       "type": "infer"
     },
     {
-      "conclusion": "lcn_679585c3ffaede4c",
+      "conclusion": null,
       "contexts": [],
-      "factor_id": "f_7aa2e28103c97c51",
-      "metadata": {
-        "edge_type": "relation_equivalence"
-      },
+      "factor_id": "f_ad9cbb3c166a1101",
+      "metadata": null,
       "premises": [
+        "lcn_679585c3ffaede4c",
         "lcn_7a03cda4ec534c19",
         "ext:galileo_falling_bodies.vacuum_prediction"
       ],
@@ -132,13 +119,12 @@
       "type": "equivalence"
     },
     {
-      "conclusion": "lcn_f3d163a634b10ae3",
+      "conclusion": null,
       "contexts": [],
-      "factor_id": "f_bf402717960b0321",
-      "metadata": {
-        "edge_type": "relation_contradiction"
-      },
+      "factor_id": "f_b5f6a869cdba19f9",
+      "metadata": null,
       "premises": [
+        "lcn_f3d163a634b10ae3",
         "lcn_7a03cda4ec534c19",
         "ext:galileo_falling_bodies.heavier_falls_faster"
       ],
@@ -153,10 +139,8 @@
     {
       "conclusion": "lcn_390e41f5e4271931",
       "contexts": [],
-      "factor_id": "f_d94bc1f0e6542479",
-      "metadata": {
-        "edge_type": "deduction"
-      },
+      "factor_id": "f_4498087a26390818",
+      "metadata": null,
       "premises": [
         "lcn_7a03cda4ec534c19",
         "ext:galileo_falling_bodies.heavier_falls_faster",
@@ -173,10 +157,8 @@
     {
       "conclusion": "lcn_051bcb61bd2c88c1",
       "contexts": [],
-      "factor_id": "f_118a2cfa1abb5387",
-      "metadata": {
-        "edge_type": "deduction"
-      },
+      "factor_id": "f_e10811da04d69f33",
+      "metadata": null,
       "premises": [
         "ext:galileo_falling_bodies.aristotle_contradicted",
         "lcn_390e41f5e4271931",

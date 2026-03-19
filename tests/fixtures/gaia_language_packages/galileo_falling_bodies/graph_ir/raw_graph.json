@@ -4,9 +4,7 @@
       "conclusion": "raw_cef3f5aee93241c9",
       "contexts": [],
       "factor_id": "f_f057dd82db89dce0",
-      "metadata": {
-        "edge_type": "instantiation"
-      },
+      "metadata": null,
       "premises": [
         "raw_c2ce6f83402d503f"
       ],
@@ -22,9 +20,7 @@
       "conclusion": "raw_12f64fbc2c0fa1cf",
       "contexts": [],
       "factor_id": "f_fc08d3b723cf56ff",
-      "metadata": {
-        "edge_type": "instantiation"
-      },
+      "metadata": null,
       "premises": [
         "raw_a990b93dacd62d5c"
       ],
@@ -40,9 +36,7 @@
       "conclusion": "raw_d5fffa7016ba1576",
       "contexts": [],
       "factor_id": "f_ca77883e93b1d8e5",
-      "metadata": {
-        "edge_type": "instantiation"
-      },
+      "metadata": null,
       "premises": [
         "raw_fdb785aa74b1f866"
       ],
@@ -58,9 +52,7 @@
       "conclusion": "raw_ef88e3fe389c273c",
       "contexts": [],
       "factor_id": "f_6925159a4efbc465",
-      "metadata": {
-        "edge_type": "instantiation"
-      },
+      "metadata": null,
       "premises": [
         "raw_535db8ea513c6aa0"
       ],
@@ -75,10 +67,8 @@
     {
       "conclusion": "raw_9700beed75f85007",
       "contexts": [],
-      "factor_id": "f_f882aaa2d884dec2",
-      "metadata": {
-        "edge_type": "deduction"
-      },
+      "factor_id": "f_38d2f6efc9fbf6ed",
+      "metadata": null,
       "premises": [
         "raw_bd45db77c1eb0d3f"
       ],
@@ -91,13 +81,12 @@
       "type": "infer"
     },
     {
-      "conclusion": "raw_16859c596a11a9ae",
+      "conclusion": null,
       "contexts": [],
-      "factor_id": "f_a2bde6e3ca035c49",
-      "metadata": {
-        "edge_type": "relation_contradiction"
-      },
+      "factor_id": "f_46ddb4b2392ff8a1",
+      "metadata": null,
       "premises": [
+        "raw_16859c596a11a9ae",
         "raw_4c34b6bb7330df19",
         "raw_df8f16e5fe84d89e"
       ],
@@ -114,10 +103,8 @@
       "contexts": [
         "raw_334ff0accb5b410d"
       ],
-      "factor_id": "f_2cc0ca127bd8157a",
-      "metadata": {
-        "edge_type": "deduction"
-      },
+      "factor_id": "f_663a665c124deab3",
+      "metadata": null,
       "premises": [
         "raw_9700beed75f85007",
         "raw_cef3f5aee93241c9"
@@ -133,10 +120,8 @@
     {
       "conclusion": "raw_df8f16e5fe84d89e",
       "contexts": [],
-      "factor_id": "f_49ced7d9952d3035",
-      "metadata": {
-        "edge_type": "deduction"
-      },
+      "factor_id": "f_b018924c9b613460",
+      "metadata": null,
       "premises": [
         "raw_9700beed75f85007"
       ],
@@ -151,10 +136,8 @@
     {
       "conclusion": "raw_16859c596a11a9ae",
       "contexts": [],
-      "factor_id": "f_a4589ec00285ef81",
-      "metadata": {
-        "edge_type": "deduction"
-      },
+      "factor_id": "f_618d70a5e5ae7b67",
+      "metadata": null,
       "premises": [
         "raw_4c34b6bb7330df19",
         "raw_df8f16e5fe84d89e",
@@ -171,10 +154,8 @@
     {
       "conclusion": "raw_e26cef85fa3ccc52",
       "contexts": [],
-      "factor_id": "f_cb6667814c366dd8",
-      "metadata": {
-        "edge_type": "deduction"
-      },
+      "factor_id": "f_c9cecb4751430bf5",
+      "metadata": null,
       "premises": [
         "raw_16859c596a11a9ae"
       ],
@@ -189,10 +170,8 @@
     {
       "conclusion": "raw_01f3cfde04ead72c",
       "contexts": [],
-      "factor_id": "f_b98868837751bace",
-      "metadata": {
-        "edge_type": "deduction"
-      },
+      "factor_id": "f_f6817734650f536d",
+      "metadata": null,
       "premises": [
         "raw_c06bcd74188c18d6"
       ],
@@ -209,10 +188,8 @@
       "contexts": [
         "raw_bd45db77c1eb0d3f"
       ],
-      "factor_id": "f_1eeb41a484899eb3",
-      "metadata": {
-        "edge_type": "deduction"
-      },
+      "factor_id": "f_c2d0dbb8eab43d11",
+      "metadata": null,
       "premises": [
         "raw_01f3cfde04ead72c",
         "raw_d5fffa7016ba1576"
@@ -228,10 +205,8 @@
     {
       "conclusion": "raw_06a8f28c86c854d9",
       "contexts": [],
-      "factor_id": "f_41fb903b71ed857a",
-      "metadata": {
-        "edge_type": "deduction"
-      },
+      "factor_id": "f_eb9a394544cc1736",
+      "metadata": null,
       "premises": [
         "raw_f1c7935e0aaab417"
       ],
@@ -248,10 +223,8 @@
       "contexts": [
         "raw_ddafbd5bca7f6f12"
       ],
-      "factor_id": "f_51b81b082af3b76d",
-      "metadata": {
-        "edge_type": "deduction"
-      },
+      "factor_id": "f_4a9d81680fd44f71",
+      "metadata": null,
       "premises": [
         "raw_e26cef85fa3ccc52",
         "raw_31b2d0f205e9215d",
@@ -269,10 +242,8 @@
     {
       "conclusion": "raw_76bde2bf42e76287",
       "contexts": [],
-      "factor_id": "f_982b333aad98d3c6",
-      "metadata": {
-        "edge_type": "deduction"
-      },
+      "factor_id": "f_c6852623470fe9e1",
+      "metadata": null,
       "premises": [
         "raw_eccb04450c85782f"
       ],

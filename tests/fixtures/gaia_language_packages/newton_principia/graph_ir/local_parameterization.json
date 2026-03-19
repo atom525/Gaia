@@ -1,19 +1,19 @@
 {
   "factor_parameters": {
-    "f_104daf2c484a37da": {
-      "conditional_probability": 0.95
-    },
-    "f_118a2cfa1abb5387": {
-      "conditional_probability": 0.94
-    },
-    "f_a056cedf6d046de2": {
+    "f_27610bc559eba5bb": {
       "conditional_probability": 0.97
     },
-    "f_d94bc1f0e6542479": {
+    "f_4498087a26390818": {
       "conditional_probability": 0.95
+    },
+    "f_8edf59eba0cd54bd": {
+      "conditional_probability": 0.95
+    },
+    "f_e10811da04d69f33": {
+      "conditional_probability": 0.94
     }
   },
-  "graph_hash": "sha256:bac4fa372502161135d7a9a5e13d562a1cdf5678c5f6bb15c2d28188c5e7e5b7",
+  "graph_hash": "sha256:2de688903a717a768eeed0111aa8c49e13584bcf9c554ba32191c99590e97857",
   "graph_scope": "local",
   "metadata": null,
   "node_priors": {

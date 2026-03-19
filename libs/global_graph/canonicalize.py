@@ -188,12 +188,14 @@ async def canonicalize_package(
             if gcn_id is not None:
                 contexts_gcn.append(gcn_id)
 
-        conclusion_gcn = _resolve_id(factor.conclusion)
-        if conclusion_gcn is None:
-            all_resolved = False
-            unresolved.append(factor.conclusion)
+        conclusion_gcn = None
+        if factor.conclusion is not None:
+            conclusion_gcn = _resolve_id(factor.conclusion)
+            if conclusion_gcn is None:
+                all_resolved = False
+                unresolved.append(factor.conclusion)
 
-        if all_resolved and conclusion_gcn is not None:
+        if all_resolved:
             global_factors.append(
                 FactorNode(
                     factor_id=factor.factor_id,

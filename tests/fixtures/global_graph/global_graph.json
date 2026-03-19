@@ -429,6 +429,436 @@
       "package": "newton_principia",
       "reason": null,
       "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_c48405eaa729d879",
+      "local_canonical_id": "lcn_e3d404d0198f7e25",
+      "local_graph_hash": "sha256:9f97695a3a9174f7f1018ec60ff02a5544d3a1da0e065c8066d7aa9357f4a9d2",
+      "package": "galileo_falling_bodies",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_0ae2e548bdc3b146",
+      "local_canonical_id": "lcn_aab9003445df2fec",
+      "local_graph_hash": "sha256:9f97695a3a9174f7f1018ec60ff02a5544d3a1da0e065c8066d7aa9357f4a9d2",
+      "package": "galileo_falling_bodies",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_4255d77b94766b02",
+      "local_canonical_id": "lcn_df66e0694c5ca5ad",
+      "local_graph_hash": "sha256:9f97695a3a9174f7f1018ec60ff02a5544d3a1da0e065c8066d7aa9357f4a9d2",
+      "package": "galileo_falling_bodies",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_294abfafb84132f1",
+      "local_canonical_id": "lcn_a9ca4fd9f5070274",
+      "local_graph_hash": "sha256:9f97695a3a9174f7f1018ec60ff02a5544d3a1da0e065c8066d7aa9357f4a9d2",
+      "package": "galileo_falling_bodies",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_c2f24a14911f9a97",
+      "local_canonical_id": "lcn_4106b1710e46373e",
+      "local_graph_hash": "sha256:9f97695a3a9174f7f1018ec60ff02a5544d3a1da0e065c8066d7aa9357f4a9d2",
+      "package": "galileo_falling_bodies",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_4c530ed4b621d5b7",
+      "local_canonical_id": "lcn_66d50713e601243e",
+      "local_graph_hash": "sha256:9f97695a3a9174f7f1018ec60ff02a5544d3a1da0e065c8066d7aa9357f4a9d2",
+      "package": "galileo_falling_bodies",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_34cabc42c0253a55",
+      "local_canonical_id": "lcn_d6c7bca7e8a06693",
+      "local_graph_hash": "sha256:9f97695a3a9174f7f1018ec60ff02a5544d3a1da0e065c8066d7aa9357f4a9d2",
+      "package": "galileo_falling_bodies",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_f0cc0fa5de32b098",
+      "local_canonical_id": "lcn_422bad5b75dd2df5",
+      "local_graph_hash": "sha256:9f97695a3a9174f7f1018ec60ff02a5544d3a1da0e065c8066d7aa9357f4a9d2",
+      "package": "galileo_falling_bodies",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_d02452d248c12ef9",
+      "local_canonical_id": "lcn_8ca9a2b93b0e9307",
+      "local_graph_hash": "sha256:9f97695a3a9174f7f1018ec60ff02a5544d3a1da0e065c8066d7aa9357f4a9d2",
+      "package": "galileo_falling_bodies",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "create_new",
+      "global_canonical_id": "gcn_63441d0f10b9594b",
+      "local_canonical_id": "lcn_a95c07b51e050bfb",
+      "local_graph_hash": "sha256:9f97695a3a9174f7f1018ec60ff02a5544d3a1da0e065c8066d7aa9357f4a9d2",
+      "package": "galileo_falling_bodies",
+      "reason": null,
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "create_new",
+      "global_canonical_id": "gcn_ace5c4b05a6733f6",
+      "local_canonical_id": "lcn_b6bb05362b879e90",
+      "local_graph_hash": "sha256:9f97695a3a9174f7f1018ec60ff02a5544d3a1da0e065c8066d7aa9357f4a9d2",
+      "package": "galileo_falling_bodies",
+      "reason": null,
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_b6616c89da02a570",
+      "local_canonical_id": "lcn_148c1b8d98f495b5",
+      "local_graph_hash": "sha256:9f97695a3a9174f7f1018ec60ff02a5544d3a1da0e065c8066d7aa9357f4a9d2",
+      "package": "galileo_falling_bodies",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_681d83be20157cd2",
+      "local_canonical_id": "lcn_292f81b065df5b91",
+      "local_graph_hash": "sha256:9f97695a3a9174f7f1018ec60ff02a5544d3a1da0e065c8066d7aa9357f4a9d2",
+      "package": "galileo_falling_bodies",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_43636ff1544de453",
+      "local_canonical_id": "lcn_1e3724075272f3b5",
+      "local_graph_hash": "sha256:9f97695a3a9174f7f1018ec60ff02a5544d3a1da0e065c8066d7aa9357f4a9d2",
+      "package": "galileo_falling_bodies",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_58c421e2aee21da3",
+      "local_canonical_id": "lcn_61197e996f3dd38a",
+      "local_graph_hash": "sha256:9f97695a3a9174f7f1018ec60ff02a5544d3a1da0e065c8066d7aa9357f4a9d2",
+      "package": "galileo_falling_bodies",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_2060a151042afb16",
+      "local_canonical_id": "lcn_3d20684fe585a228",
+      "local_graph_hash": "sha256:9f97695a3a9174f7f1018ec60ff02a5544d3a1da0e065c8066d7aa9357f4a9d2",
+      "package": "galileo_falling_bodies",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_367e2cc5fe5a38ac",
+      "local_canonical_id": "lcn_315917e2f79d7ef7",
+      "local_graph_hash": "sha256:9f97695a3a9174f7f1018ec60ff02a5544d3a1da0e065c8066d7aa9357f4a9d2",
+      "package": "galileo_falling_bodies",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_fbd0f3e02d09f039",
+      "local_canonical_id": "lcn_cfb4e927e732fb7b",
+      "local_graph_hash": "sha256:9f97695a3a9174f7f1018ec60ff02a5544d3a1da0e065c8066d7aa9357f4a9d2",
+      "package": "galileo_falling_bodies",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_346c911b63389c15",
+      "local_canonical_id": "lcn_716c8ef657abaf41",
+      "local_graph_hash": "sha256:9f97695a3a9174f7f1018ec60ff02a5544d3a1da0e065c8066d7aa9357f4a9d2",
+      "package": "galileo_falling_bodies",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_c72ec7157b879f55",
+      "local_canonical_id": "lcn_25dddf57cc6aae0d",
+      "local_graph_hash": "sha256:9f97695a3a9174f7f1018ec60ff02a5544d3a1da0e065c8066d7aa9357f4a9d2",
+      "package": "galileo_falling_bodies",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_893f845d67c238bb",
+      "local_canonical_id": "lcn_8c42bbb2570499b9",
+      "local_graph_hash": "sha256:9f97695a3a9174f7f1018ec60ff02a5544d3a1da0e065c8066d7aa9357f4a9d2",
+      "package": "galileo_falling_bodies",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_10cfe90023ee6ca7",
+      "local_canonical_id": "lcn_645d38ebf9ed901b",
+      "local_graph_hash": "sha256:9f97695a3a9174f7f1018ec60ff02a5544d3a1da0e065c8066d7aa9357f4a9d2",
+      "package": "galileo_falling_bodies",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_542a4fb5cca1b069",
+      "local_canonical_id": "lcn_1f43c2bad5e7676d",
+      "local_graph_hash": "sha256:9f97695a3a9174f7f1018ec60ff02a5544d3a1da0e065c8066d7aa9357f4a9d2",
+      "package": "galileo_falling_bodies",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_c639050dc11c8387",
+      "local_canonical_id": "lcn_fdc52d5c5fdf2374",
+      "local_graph_hash": "sha256:2de688903a717a768eeed0111aa8c49e13584bcf9c554ba32191c99590e97857",
+      "package": "newton_principia",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_3f9a7c3297a1962f",
+      "local_canonical_id": "lcn_c0c476d32d805f12",
+      "local_graph_hash": "sha256:2de688903a717a768eeed0111aa8c49e13584bcf9c554ba32191c99590e97857",
+      "package": "newton_principia",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_8e3cb03738b170e7",
+      "local_canonical_id": "lcn_2c502bb54f9d83c6",
+      "local_graph_hash": "sha256:2de688903a717a768eeed0111aa8c49e13584bcf9c554ba32191c99590e97857",
+      "package": "newton_principia",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_130a415b91c2e8ac",
+      "local_canonical_id": "lcn_d8fc78dec7817285",
+      "local_graph_hash": "sha256:2de688903a717a768eeed0111aa8c49e13584bcf9c554ba32191c99590e97857",
+      "package": "newton_principia",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_9041bd8c37476ebb",
+      "local_canonical_id": "lcn_1a3d5bc005ab292d",
+      "local_graph_hash": "sha256:2de688903a717a768eeed0111aa8c49e13584bcf9c554ba32191c99590e97857",
+      "package": "newton_principia",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_05b23dc2ff808953",
+      "local_canonical_id": "lcn_3c4eaab5efff7e66",
+      "local_graph_hash": "sha256:2de688903a717a768eeed0111aa8c49e13584bcf9c554ba32191c99590e97857",
+      "package": "newton_principia",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_c19c44772bb5129c",
+      "local_canonical_id": "lcn_796d71209059ab17",
+      "local_graph_hash": "sha256:2de688903a717a768eeed0111aa8c49e13584bcf9c554ba32191c99590e97857",
+      "package": "newton_principia",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_ffc8e93d243b209e",
+      "local_canonical_id": "lcn_344146af8b1932e5",
+      "local_graph_hash": "sha256:2de688903a717a768eeed0111aa8c49e13584bcf9c554ba32191c99590e97857",
+      "package": "newton_principia",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_11dd1e4d9d82de3b",
+      "local_canonical_id": "lcn_e7e1b9c7cd9c6b39",
+      "local_graph_hash": "sha256:2de688903a717a768eeed0111aa8c49e13584bcf9c554ba32191c99590e97857",
+      "package": "newton_principia",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_80ac4e3e82a09318",
+      "local_canonical_id": "lcn_7a03cda4ec534c19",
+      "local_graph_hash": "sha256:2de688903a717a768eeed0111aa8c49e13584bcf9c554ba32191c99590e97857",
+      "package": "newton_principia",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "create_new",
+      "global_canonical_id": "gcn_7a25511aa794a411",
+      "local_canonical_id": "lcn_679585c3ffaede4c",
+      "local_graph_hash": "sha256:2de688903a717a768eeed0111aa8c49e13584bcf9c554ba32191c99590e97857",
+      "package": "newton_principia",
+      "reason": null,
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_65f3592372613202",
+      "local_canonical_id": "lcn_390e41f5e4271931",
+      "local_graph_hash": "sha256:2de688903a717a768eeed0111aa8c49e13584bcf9c554ba32191c99590e97857",
+      "package": "newton_principia",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_f54a12d943826d90",
+      "local_canonical_id": "lcn_051bcb61bd2c88c1",
+      "local_graph_hash": "sha256:2de688903a717a768eeed0111aa8c49e13584bcf9c554ba32191c99590e97857",
+      "package": "newton_principia",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "create_new",
+      "global_canonical_id": "gcn_f6e95e82c7aee1e3",
+      "local_canonical_id": "lcn_f3d163a634b10ae3",
+      "local_graph_hash": "sha256:2de688903a717a768eeed0111aa8c49e13584bcf9c554ba32191c99590e97857",
+      "package": "newton_principia",
+      "reason": null,
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_f3f88a94a3a009bd",
+      "local_canonical_id": "lcn_cc1deda139d9572d",
+      "local_graph_hash": "sha256:2de688903a717a768eeed0111aa8c49e13584bcf9c554ba32191c99590e97857",
+      "package": "newton_principia",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_fb9792398769ce32",
+      "local_canonical_id": "lcn_dfd698abeb76807b",
+      "local_graph_hash": "sha256:2de688903a717a768eeed0111aa8c49e13584bcf9c554ba32191c99590e97857",
+      "package": "newton_principia",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "create_new",
+      "global_canonical_id": "gcn_ab199030f0a853e4",
+      "local_canonical_id": "lcn_eb4137719d96ee21",
+      "local_graph_hash": "sha256:2de688903a717a768eeed0111aa8c49e13584bcf9c554ba32191c99590e97857",
+      "package": "newton_principia",
+      "reason": null,
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_cf54f2fecae97fb4",
+      "local_canonical_id": "lcn_c23cb24b89936169",
+      "local_graph_hash": "sha256:2de688903a717a768eeed0111aa8c49e13584bcf9c554ba32191c99590e97857",
+      "package": "newton_principia",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "create_new",
+      "global_canonical_id": "gcn_6044fb56978a1e24",
+      "local_canonical_id": "lcn_e346350bf23badcf",
+      "local_graph_hash": "sha256:2de688903a717a768eeed0111aa8c49e13584bcf9c554ba32191c99590e97857",
+      "package": "newton_principia",
+      "reason": null,
+      "version": "1.0.0"
+    },
+    {
+      "decided_by": "auto_canonicalize",
+      "decision": "match_existing",
+      "global_canonical_id": "gcn_fcc107960a9eb351",
+      "local_canonical_id": "lcn_6e6e3a70f0f405aa",
+      "local_graph_hash": "sha256:2de688903a717a768eeed0111aa8c49e13584bcf9c554ba32191c99590e97857",
+      "package": "newton_principia",
+      "reason": "cosine similarity 1.000",
+      "version": "1.0.0"
     }
   ],
   "factor_nodes": [
@@ -905,95 +1335,527 @@
         "version": "1.0.0"
       },
       "type": "infer"
+    },
+    {
+      "conclusion": "gcn_c72ec7157b879f55",
+      "contexts": [],
+      "factor_id": "f_f057dd82db89dce0",
+      "metadata": null,
+      "premises": [
+        "gcn_c2f24a14911f9a97"
+      ],
+      "source_ref": {
+        "knowledge_name": "drag_prediction_chain__apply_deduce_drag_effect",
+        "module": "reasoning",
+        "package": "galileo_falling_bodies",
+        "version": "1.0.0"
+      },
+      "type": "instantiation"
+    },
+    {
+      "conclusion": "gcn_893f845d67c238bb",
+      "contexts": [],
+      "factor_id": "f_fc08d3b723cf56ff",
+      "metadata": null,
+      "premises": [
+        "gcn_4c530ed4b621d5b7"
+      ],
+      "source_ref": {
+        "knowledge_name": "contradiction_chain__apply_expose_mutual_exclusion",
+        "module": "reasoning",
+        "package": "galileo_falling_bodies",
+        "version": "1.0.0"
+      },
+      "type": "instantiation"
+    },
+    {
+      "conclusion": "gcn_10cfe90023ee6ca7",
+      "contexts": [],
+      "factor_id": "f_ca77883e93b1d8e5",
+      "metadata": null,
+      "premises": [
+        "gcn_34cabc42c0253a55"
+      ],
+      "source_ref": {
+        "knowledge_name": "confound_chain__apply_explain_everyday_observation",
+        "module": "reasoning",
+        "package": "galileo_falling_bodies",
+        "version": "1.0.0"
+      },
+      "type": "instantiation"
+    },
+    {
+      "conclusion": "gcn_542a4fb5cca1b069",
+      "contexts": [],
+      "factor_id": "f_6925159a4efbc465",
+      "metadata": null,
+      "premises": [
+        "gcn_f0cc0fa5de32b098"
+      ],
+      "source_ref": {
+        "knowledge_name": "synthesis_chain__apply_synthesize_equal_fall_prediction",
+        "module": "reasoning",
+        "package": "galileo_falling_bodies",
+        "version": "1.0.0"
+      },
+      "type": "instantiation"
+    },
+    {
+      "conclusion": "gcn_4255d77b94766b02",
+      "contexts": [],
+      "factor_id": "f_38d2f6efc9fbf6ed",
+      "metadata": null,
+      "premises": [
+        "gcn_294abfafb84132f1"
+      ],
+      "source_ref": {
+        "knowledge_name": "inductive_support",
+        "module": "aristotle",
+        "package": "galileo_falling_bodies",
+        "version": "1.0.0"
+      },
+      "type": "infer"
+    },
+    {
+      "conclusion": null,
+      "contexts": [],
+      "factor_id": "f_46ddb4b2392ff8a1",
+      "metadata": null,
+      "premises": [
+        "gcn_ace5c4b05a6733f6",
+        "gcn_d02452d248c12ef9",
+        "gcn_63441d0f10b9594b"
+      ],
+      "source_ref": {
+        "knowledge_name": "tied_balls_contradiction",
+        "module": "reasoning",
+        "package": "galileo_falling_bodies",
+        "version": "1.0.0"
+      },
+      "type": "contradiction"
+    },
+    {
+      "conclusion": "gcn_d02452d248c12ef9",
+      "contexts": [
+        "gcn_c48405eaa729d879"
+      ],
+      "factor_id": "f_663a665c124deab3",
+      "metadata": null,
+      "premises": [
+        "gcn_4255d77b94766b02",
+        "gcn_c72ec7157b879f55"
+      ],
+      "source_ref": {
+        "knowledge_name": "drag_prediction_chain",
+        "module": "reasoning",
+        "package": "galileo_falling_bodies",
+        "version": "1.0.0"
+      },
+      "type": "infer"
+    },
+    {
+      "conclusion": "gcn_63441d0f10b9594b",
+      "contexts": [],
+      "factor_id": "f_b018924c9b613460",
+      "metadata": null,
+      "premises": [
+        "gcn_4255d77b94766b02"
+      ],
+      "source_ref": {
+        "knowledge_name": "combined_weight_chain",
+        "module": "reasoning",
+        "package": "galileo_falling_bodies",
+        "version": "1.0.0"
+      },
+      "type": "infer"
+    },
+    {
+      "conclusion": "gcn_ace5c4b05a6733f6",
+      "contexts": [],
+      "factor_id": "f_618d70a5e5ae7b67",
+      "metadata": null,
+      "premises": [
+        "gcn_d02452d248c12ef9",
+        "gcn_63441d0f10b9594b",
+        "gcn_893f845d67c238bb"
+      ],
+      "source_ref": {
+        "knowledge_name": "contradiction_chain",
+        "module": "reasoning",
+        "package": "galileo_falling_bodies",
+        "version": "1.0.0"
+      },
+      "type": "infer"
+    },
+    {
+      "conclusion": "gcn_b6616c89da02a570",
+      "contexts": [],
+      "factor_id": "f_c9cecb4751430bf5",
+      "metadata": null,
+      "premises": [
+        "gcn_ace5c4b05a6733f6"
+      ],
+      "source_ref": {
+        "knowledge_name": "verdict_chain",
+        "module": "reasoning",
+        "package": "galileo_falling_bodies",
+        "version": "1.0.0"
+      },
+      "type": "infer"
+    },
+    {
+      "conclusion": "gcn_43636ff1544de453",
+      "contexts": [],
+      "factor_id": "f_f6817734650f536d",
+      "metadata": null,
+      "premises": [
+        "gcn_681d83be20157cd2"
+      ],
+      "source_ref": {
+        "knowledge_name": "medium_trend_chain",
+        "module": "reasoning",
+        "package": "galileo_falling_bodies",
+        "version": "1.0.0"
+      },
+      "type": "infer"
+    },
+    {
+      "conclusion": "gcn_58c421e2aee21da3",
+      "contexts": [
+        "gcn_294abfafb84132f1"
+      ],
+      "factor_id": "f_c2d0dbb8eab43d11",
+      "metadata": null,
+      "premises": [
+        "gcn_43636ff1544de453",
+        "gcn_10cfe90023ee6ca7"
+      ],
+      "source_ref": {
+        "knowledge_name": "confound_chain",
+        "module": "reasoning",
+        "package": "galileo_falling_bodies",
+        "version": "1.0.0"
+      },
+      "type": "infer"
+    },
+    {
+      "conclusion": "gcn_367e2cc5fe5a38ac",
+      "contexts": [],
+      "factor_id": "f_eb9a394544cc1736",
+      "metadata": null,
+      "premises": [
+        "gcn_2060a151042afb16"
+      ],
+      "source_ref": {
+        "knowledge_name": "inclined_plane_chain",
+        "module": "reasoning",
+        "package": "galileo_falling_bodies",
+        "version": "1.0.0"
+      },
+      "type": "infer"
+    },
+    {
+      "conclusion": "gcn_fbd0f3e02d09f039",
+      "contexts": [
+        "gcn_0ae2e548bdc3b146"
+      ],
+      "factor_id": "f_4a9d81680fd44f71",
+      "metadata": null,
+      "premises": [
+        "gcn_b6616c89da02a570",
+        "gcn_58c421e2aee21da3",
+        "gcn_367e2cc5fe5a38ac",
+        "gcn_542a4fb5cca1b069"
+      ],
+      "source_ref": {
+        "knowledge_name": "synthesis_chain",
+        "module": "reasoning",
+        "package": "galileo_falling_bodies",
+        "version": "1.0.0"
+      },
+      "type": "infer"
+    },
+    {
+      "conclusion": "gcn_346c911b63389c15",
+      "contexts": [],
+      "factor_id": "f_c6852623470fe9e1",
+      "metadata": null,
+      "premises": [
+        "gcn_fbd0f3e02d09f039"
+      ],
+      "source_ref": {
+        "knowledge_name": "next_steps",
+        "module": "follow_up",
+        "package": "galileo_falling_bodies",
+        "version": "1.0.0"
+      },
+      "type": "infer"
+    },
+    {
+      "conclusion": "gcn_ab199030f0a853e4",
+      "contexts": [],
+      "factor_id": "f_9e89ffde48b38b79",
+      "metadata": null,
+      "premises": [
+        "gcn_c19c44772bb5129c"
+      ],
+      "source_ref": {
+        "knowledge_name": "force_equating_chain__apply_equate_forces",
+        "module": "derivation",
+        "package": "newton_principia",
+        "version": "1.0.0"
+      },
+      "type": "instantiation"
+    },
+    {
+      "conclusion": "gcn_cf54f2fecae97fb4",
+      "contexts": [],
+      "factor_id": "f_61e1b4812faa60df",
+      "metadata": null,
+      "premises": [
+        "gcn_ffc8e93d243b209e"
+      ],
+      "source_ref": {
+        "knowledge_name": "mass_independence_chain__apply_interpret_mass_independence",
+        "module": "derivation",
+        "package": "newton_principia",
+        "version": "1.0.0"
+      },
+      "type": "instantiation"
+    },
+    {
+      "conclusion": "gcn_6044fb56978a1e24",
+      "contexts": [],
+      "factor_id": "f_e81e18bcb27b657a",
+      "metadata": null,
+      "premises": [
+        "gcn_f3f88a94a3a009bd"
+      ],
+      "source_ref": {
+        "knowledge_name": "theoretical_contradiction_chain__apply_derive_theoretical_contradiction",
+        "module": "implications",
+        "package": "newton_principia",
+        "version": "1.0.0"
+      },
+      "type": "instantiation"
+    },
+    {
+      "conclusion": "gcn_fcc107960a9eb351",
+      "contexts": [],
+      "factor_id": "f_5608368a89ff26e2",
+      "metadata": null,
+      "premises": [
+        "gcn_fb9792398769ce32"
+      ],
+      "source_ref": {
+        "knowledge_name": "two_path_rejection_chain__apply_synthesize_independent_refutations",
+        "module": "implications",
+        "package": "newton_principia",
+        "version": "1.0.0"
+      },
+      "type": "instantiation"
+    },
+    {
+      "conclusion": "gcn_11dd1e4d9d82de3b",
+      "contexts": [],
+      "factor_id": "f_27610bc559eba5bb",
+      "metadata": null,
+      "premises": [
+        "gcn_3f9a7c3297a1962f",
+        "gcn_130a415b91c2e8ac",
+        "gcn_9041bd8c37476ebb",
+        "gcn_ab199030f0a853e4"
+      ],
+      "source_ref": {
+        "knowledge_name": "force_equating_chain",
+        "module": "derivation",
+        "package": "newton_principia",
+        "version": "1.0.0"
+      },
+      "type": "infer"
+    },
+    {
+      "conclusion": "gcn_80ac4e3e82a09318",
+      "contexts": [],
+      "factor_id": "f_8edf59eba0cd54bd",
+      "metadata": null,
+      "premises": [
+        "gcn_11dd1e4d9d82de3b",
+        "gcn_cf54f2fecae97fb4"
+      ],
+      "source_ref": {
+        "knowledge_name": "mass_independence_chain",
+        "module": "derivation",
+        "package": "newton_principia",
+        "version": "1.0.0"
+      },
+      "type": "infer"
+    },
+    {
+      "conclusion": null,
+      "contexts": [],
+      "factor_id": "f_ad9cbb3c166a1101",
+      "metadata": null,
+      "premises": [
+        "gcn_7a25511aa794a411",
+        "gcn_80ac4e3e82a09318",
+        "gcn_fbd0f3e02d09f039"
+      ],
+      "source_ref": {
+        "knowledge_name": "galileo_equivalence",
+        "module": "implications",
+        "package": "newton_principia",
+        "version": "1.0.0"
+      },
+      "type": "equivalence"
+    },
+    {
+      "conclusion": null,
+      "contexts": [],
+      "factor_id": "f_b5f6a869cdba19f9",
+      "metadata": null,
+      "premises": [
+        "gcn_f6e95e82c7aee1e3",
+        "gcn_80ac4e3e82a09318",
+        "gcn_4255d77b94766b02"
+      ],
+      "source_ref": {
+        "knowledge_name": "newton_vs_aristotle",
+        "module": "implications",
+        "package": "newton_principia",
+        "version": "1.0.0"
+      },
+      "type": "contradiction"
+    },
+    {
+      "conclusion": "gcn_65f3592372613202",
+      "contexts": [],
+      "factor_id": "f_4498087a26390818",
+      "metadata": null,
+      "premises": [
+        "gcn_80ac4e3e82a09318",
+        "gcn_4255d77b94766b02",
+        "gcn_6044fb56978a1e24"
+      ],
+      "source_ref": {
+        "knowledge_name": "theoretical_contradiction_chain",
+        "module": "implications",
+        "package": "newton_principia",
+        "version": "1.0.0"
+      },
+      "type": "infer"
+    },
+    {
+      "conclusion": "gcn_f54a12d943826d90",
+      "contexts": [],
+      "factor_id": "f_e10811da04d69f33",
+      "metadata": null,
+      "premises": [
+        "gcn_b6616c89da02a570",
+        "gcn_65f3592372613202",
+        "gcn_fcc107960a9eb351"
+      ],
+      "source_ref": {
+        "knowledge_name": "two_path_rejection_chain",
+        "module": "implications",
+        "package": "newton_principia",
+        "version": "1.0.0"
+      },
+      "type": "infer"
     }
   ],
   "inference_state": {
     "factor_parameters": {
-      "f_104daf2c484a37da": {
+      "f_27610bc559eba5bb": {
+        "conditional_probability": 0.97
+      },
+      "f_38d2f6efc9fbf6ed": {
+        "conditional_probability": 0.8
+      },
+      "f_4498087a26390818": {
         "conditional_probability": 0.95
       },
-      "f_118a2cfa1abb5387": {
+      "f_4a9d81680fd44f71": {
         "conditional_probability": 0.94
       },
-      "f_1eeb41a484899eb3": {
+      "f_618d70a5e5ae7b67": {
+        "conditional_probability": 0.97
+      },
+      "f_663a665c124deab3": {
+        "conditional_probability": 0.93
+      },
+      "f_8edf59eba0cd54bd": {
+        "conditional_probability": 0.95
+      },
+      "f_b018924c9b613460": {
+        "conditional_probability": 0.93
+      },
+      "f_c2d0dbb8eab43d11": {
         "conditional_probability": 0.9
       },
-      "f_2cc0ca127bd8157a": {
-        "conditional_probability": 0.93
-      },
-      "f_41fb903b71ed857a": {
-        "conditional_probability": 0.86
-      },
-      "f_49ced7d9952d3035": {
-        "conditional_probability": 0.93
-      },
-      "f_51b81b082af3b76d": {
-        "conditional_probability": 0.94
-      },
-      "f_982b333aad98d3c6": {
+      "f_c6852623470fe9e1": {
         "conditional_probability": 1.0
       },
-      "f_a056cedf6d046de2": {
-        "conditional_probability": 0.97
+      "f_c9cecb4751430bf5": {
+        "conditional_probability": 0.95
       },
-      "f_a4589ec00285ef81": {
-        "conditional_probability": 0.97
+      "f_e10811da04d69f33": {
+        "conditional_probability": 0.94
       },
-      "f_b98868837751bace": {
+      "f_eb9a394544cc1736": {
+        "conditional_probability": 0.86
+      },
+      "f_f6817734650f536d": {
         "conditional_probability": 0.88
-      },
-      "f_cb6667814c366dd8": {
-        "conditional_probability": 0.95
-      },
-      "f_d94bc1f0e6542479": {
-        "conditional_probability": 0.95
-      },
-      "f_f882aaa2d884dec2": {
-        "conditional_probability": 0.8
       }
     },
     "graph_hash": "",
     "node_beliefs": {
       "gcn_05b23dc2ff808953": 0.999,
       "gcn_0ae2e548bdc3b146": 0.999,
-      "gcn_10cfe90023ee6ca7": 0.998075,
-      "gcn_11dd1e4d9d82de3b": 0.64967,
-      "gcn_130a415b91c2e8ac": 0.857969,
-      "gcn_2060a151042afb16": 0.715751,
-      "gcn_294abfafb84132f1": 0.796563,
-      "gcn_346c911b63389c15": 0.999619,
-      "gcn_34cabc42c0253a55": 0.818182,
-      "gcn_367e2cc5fe5a38ac": 0.739463,
-      "gcn_3f9a7c3297a1962f": 0.898549,
-      "gcn_4255d77b94766b02": 0.033402,
-      "gcn_43636ff1544de453": 0.722857,
-      "gcn_4c530ed4b621d5b7": 0.941748,
-      "gcn_542a4fb5cca1b069": 0.998727,
-      "gcn_58c421e2aee21da3": 0.743935,
-      "gcn_65f3592372613202": 0.411162,
-      "gcn_681d83be20157cd2": 0.755598,
+      "gcn_10cfe90023ee6ca7": 0.997521,
+      "gcn_11dd1e4d9d82de3b": 0.464708,
+      "gcn_130a415b91c2e8ac": 0.765613,
+      "gcn_2060a151042afb16": 0.546556,
+      "gcn_294abfafb84132f1": 0.659385,
+      "gcn_346c911b63389c15": 0.99939,
+      "gcn_34cabc42c0253a55": 0.692308,
+      "gcn_367e2cc5fe5a38ac": 0.6548,
+      "gcn_3f9a7c3297a1962f": 0.835101,
+      "gcn_4255d77b94766b02": 0.01843,
+      "gcn_43636ff1544de453": 0.475241,
+      "gcn_4c530ed4b621d5b7": 0.889908,
+      "gcn_542a4fb5cca1b069": 0.998662,
+      "gcn_58c421e2aee21da3": 0.606635,
+      "gcn_6044fb56978a1e24": 0.998986,
+      "gcn_63441d0f10b9594b": 0.495215,
+      "gcn_65f3592372613202": 0.368324,
+      "gcn_681d83be20157cd2": 0.523146,
       "gcn_7363c864c1e552db": 0.5,
       "gcn_7a25511aa794a411": 0.5,
-      "gcn_80ac4e3e82a09318": 0.784835,
-      "gcn_893f845d67c238bb": 0.998726,
+      "gcn_80ac4e3e82a09318": 0.700657,
+      "gcn_893f845d67c238bb": 0.998896,
       "gcn_8e3cb03738b170e7": 0.95,
-      "gcn_9041bd8c37476ebb": 0.837679,
-      "gcn_b6616c89da02a570": 0.585988,
-      "gcn_c19c44772bb5129c": 0.883502,
-      "gcn_c2f24a14911f9a97": 0.869159,
+      "gcn_9041bd8c37476ebb": 0.729747,
+      "gcn_ab199030f0a853e4": 0.997585,
+      "gcn_ace5c4b05a6733f6": 0.294262,
+      "gcn_b6616c89da02a570": 0.428277,
+      "gcn_c19c44772bb5129c": 0.813637,
+      "gcn_c2f24a14911f9a97": 0.768595,
       "gcn_c48405eaa729d879": 0.999,
       "gcn_c639050dc11c8387": 0.95,
-      "gcn_c7057097844283c5": 0.437168,
-      "gcn_c72ec7157b879f55": 0.998736,
-      "gcn_cf54f2fecae97fb4": 0.998317,
-      "gcn_d02452d248c12ef9": 0.060011,
-      "gcn_f0cc0fa5de32b098": 0.886792,
-      "gcn_f3f88a94a3a009bd": 0.904715,
-      "gcn_f54a12d943826d90": 0.587966,
-      "gcn_fb9792398769ce32": 0.886792,
-      "gcn_fbd0f3e02d09f039": 0.619398,
-      "gcn_fcc107960a9eb351": 0.9988,
-      "gcn_ffc8e93d243b209e": 0.904762
+      "gcn_c7057097844283c5": 0.428571,
+      "gcn_c72ec7157b879f55": 0.998816,
+      "gcn_cf54f2fecae97fb4": 0.997827,
+      "gcn_d02452d248c12ef9": 0.041543,
+      "gcn_f0cc0fa5de32b098": 0.79661,
+      "gcn_f3f88a94a3a009bd": 0.782269,
+      "gcn_f54a12d943826d90": 0.552385,
+      "gcn_f6e95e82c7aee1e3": 0.498039,
+      "gcn_fb9792398769ce32": 0.79661,
+      "gcn_fbd0f3e02d09f039": 0.390226,
+      "gcn_fcc107960a9eb351": 0.998748,
+      "gcn_ffc8e93d243b209e": 0.826087
     },
     "node_priors": {
       "gcn_05b23dc2ff808953": 1.0,
@@ -1012,6 +1874,8 @@
       "gcn_4c530ed4b621d5b7": 0.97,
       "gcn_542a4fb5cca1b069": 1.0,
       "gcn_58c421e2aee21da3": 0.5,
+      "gcn_6044fb56978a1e24": 1.0,
+      "gcn_63441d0f10b9594b": 0.5,
       "gcn_65f3592372613202": 0.5,
       "gcn_681d83be20157cd2": 0.88,
       "gcn_7363c864c1e552db": 0.5,
@@ -1020,8 +1884,10 @@
       "gcn_893f845d67c238bb": 1.0,
       "gcn_8e3cb03738b170e7": 0.95,
       "gcn_9041bd8c37476ebb": 0.92,
+      "gcn_ab199030f0a853e4": 1.0,
+      "gcn_ace5c4b05a6733f6": 0.6,
       "gcn_b6616c89da02a570": 0.5,
-      "gcn_c19c44772bb5129c": 0.985,
+      "gcn_c19c44772bb5129c": 0.98,
       "gcn_c2f24a14911f9a97": 0.93,
       "gcn_c48405eaa729d879": 1.0,
       "gcn_c639050dc11c8387": 0.95,
@@ -1030,8 +1896,9 @@
       "gcn_cf54f2fecae97fb4": 1.0,
       "gcn_d02452d248c12ef9": 0.5,
       "gcn_f0cc0fa5de32b098": 0.94,
-      "gcn_f3f88a94a3a009bd": 0.975,
+      "gcn_f3f88a94a3a009bd": 0.9666666666666667,
       "gcn_f54a12d943826d90": 0.5,
+      "gcn_f6e95e82c7aee1e3": 0.5,
       "gcn_fb9792398769ce32": 0.94,
       "gcn_fbd0f3e02d09f039": 0.5,
       "gcn_fcc107960a9eb351": 1.0,
@@ -1045,6 +1912,11 @@
       "kind": null,
       "knowledge_type": "setting",
       "member_local_nodes": [
+        {
+          "local_canonical_id": "lcn_e3d404d0198f7e25",
+          "package": "galileo_falling_bodies",
+          "version": "1.0.0"
+        },
         {
           "local_canonical_id": "lcn_e3d404d0198f7e25",
           "package": "galileo_falling_bodies",
@@ -1074,6 +1946,11 @@
           "local_canonical_id": "lcn_aab9003445df2fec",
           "package": "galileo_falling_bodies",
           "version": "1.0.0"
+        },
+        {
+          "local_canonical_id": "lcn_aab9003445df2fec",
+          "package": "galileo_falling_bodies",
+          "version": "1.0.0"
         }
       ],
       "metadata": {
@@ -1095,6 +1972,11 @@
       "kind": null,
       "knowledge_type": "claim",
       "member_local_nodes": [
+        {
+          "local_canonical_id": "lcn_df66e0694c5ca5ad",
+          "package": "galileo_falling_bodies",
+          "version": "1.0.0"
+        },
         {
           "local_canonical_id": "lcn_df66e0694c5ca5ad",
           "package": "galileo_falling_bodies",
@@ -1124,6 +2006,11 @@
           "local_canonical_id": "lcn_a9ca4fd9f5070274",
           "package": "galileo_falling_bodies",
           "version": "1.0.0"
+        },
+        {
+          "local_canonical_id": "lcn_a9ca4fd9f5070274",
+          "package": "galileo_falling_bodies",
+          "version": "1.0.0"
         }
       ],
       "metadata": {
@@ -1145,6 +2032,11 @@
       "kind": "infer_action",
       "knowledge_type": "action",
       "member_local_nodes": [
+        {
+          "local_canonical_id": "lcn_4106b1710e46373e",
+          "package": "galileo_falling_bodies",
+          "version": "1.0.0"
+        },
         {
           "local_canonical_id": "lcn_4106b1710e46373e",
           "package": "galileo_falling_bodies",
@@ -1183,6 +2075,11 @@
           "local_canonical_id": "lcn_66d50713e601243e",
           "package": "galileo_falling_bodies",
           "version": "1.0.0"
+        },
+        {
+          "local_canonical_id": "lcn_66d50713e601243e",
+          "package": "galileo_falling_bodies",
+          "version": "1.0.0"
         }
       ],
       "metadata": {
@@ -1217,6 +2114,11 @@
           "local_canonical_id": "lcn_d6c7bca7e8a06693",
           "package": "galileo_falling_bodies",
           "version": "1.0.0"
+        },
+        {
+          "local_canonical_id": "lcn_d6c7bca7e8a06693",
+          "package": "galileo_falling_bodies",
+          "version": "1.0.0"
         }
       ],
       "metadata": {
@@ -1247,6 +2149,11 @@
       "kind": "infer_action",
       "knowledge_type": "action",
       "member_local_nodes": [
+        {
+          "local_canonical_id": "lcn_422bad5b75dd2df5",
+          "package": "galileo_falling_bodies",
+          "version": "1.0.0"
+        },
         {
           "local_canonical_id": "lcn_422bad5b75dd2df5",
           "package": "galileo_falling_bodies",
@@ -1289,6 +2196,11 @@
       "kind": null,
       "knowledge_type": "claim",
       "member_local_nodes": [
+        {
+          "local_canonical_id": "lcn_8ca9a2b93b0e9307",
+          "package": "galileo_falling_bodies",
+          "version": "1.0.0"
+        },
         {
           "local_canonical_id": "lcn_8ca9a2b93b0e9307",
           "package": "galileo_falling_bodies",
@@ -1347,6 +2259,11 @@
           "local_canonical_id": "lcn_148c1b8d98f495b5",
           "package": "galileo_falling_bodies",
           "version": "1.0.0"
+        },
+        {
+          "local_canonical_id": "lcn_148c1b8d98f495b5",
+          "package": "galileo_falling_bodies",
+          "version": "1.0.0"
         }
       ],
       "metadata": {
@@ -1368,6 +2285,11 @@
       "kind": null,
       "knowledge_type": "claim",
       "member_local_nodes": [
+        {
+          "local_canonical_id": "lcn_292f81b065df5b91",
+          "package": "galileo_falling_bodies",
+          "version": "1.0.0"
+        },
         {
           "local_canonical_id": "lcn_292f81b065df5b91",
           "package": "galileo_falling_bodies",
@@ -1397,6 +2319,11 @@
           "local_canonical_id": "lcn_1e3724075272f3b5",
           "package": "galileo_falling_bodies",
           "version": "1.0.0"
+        },
+        {
+          "local_canonical_id": "lcn_1e3724075272f3b5",
+          "package": "galileo_falling_bodies",
+          "version": "1.0.0"
         }
       ],
       "metadata": {
@@ -1418,6 +2345,11 @@
       "kind": null,
       "knowledge_type": "claim",
       "member_local_nodes": [
+        {
+          "local_canonical_id": "lcn_61197e996f3dd38a",
+          "package": "galileo_falling_bodies",
+          "version": "1.0.0"
+        },
         {
           "local_canonical_id": "lcn_61197e996f3dd38a",
           "package": "galileo_falling_bodies",
@@ -1447,6 +2379,11 @@
           "local_canonical_id": "lcn_3d20684fe585a228",
           "package": "galileo_falling_bodies",
           "version": "1.0.0"
+        },
+        {
+          "local_canonical_id": "lcn_3d20684fe585a228",
+          "package": "galileo_falling_bodies",
+          "version": "1.0.0"
         }
       ],
       "metadata": {
@@ -1468,6 +2405,11 @@
       "kind": null,
       "knowledge_type": "claim",
       "member_local_nodes": [
+        {
+          "local_canonical_id": "lcn_315917e2f79d7ef7",
+          "package": "galileo_falling_bodies",
+          "version": "1.0.0"
+        },
         {
           "local_canonical_id": "lcn_315917e2f79d7ef7",
           "package": "galileo_falling_bodies",
@@ -1497,6 +2439,11 @@
           "local_canonical_id": "lcn_cfb4e927e732fb7b",
           "package": "galileo_falling_bodies",
           "version": "1.0.0"
+        },
+        {
+          "local_canonical_id": "lcn_cfb4e927e732fb7b",
+          "package": "galileo_falling_bodies",
+          "version": "1.0.0"
         }
       ],
       "metadata": {
@@ -1522,6 +2469,11 @@
           "local_canonical_id": "lcn_716c8ef657abaf41",
           "package": "galileo_falling_bodies",
           "version": "1.0.0"
+        },
+        {
+          "local_canonical_id": "lcn_716c8ef657abaf41",
+          "package": "galileo_falling_bodies",
+          "version": "1.0.0"
         }
       ],
       "metadata": {
@@ -1543,6 +2495,11 @@
       "kind": "infer_action",
       "knowledge_type": "action",
       "member_local_nodes": [
+        {
+          "local_canonical_id": "lcn_25dddf57cc6aae0d",
+          "package": "galileo_falling_bodies",
+          "version": "1.0.0"
+        },
         {
           "local_canonical_id": "lcn_25dddf57cc6aae0d",
           "package": "galileo_falling_bodies",
@@ -1574,6 +2531,11 @@
           "local_canonical_id": "lcn_8c42bbb2570499b9",
           "package": "galileo_falling_bodies",
           "version": "1.0.0"
+        },
+        {
+          "local_canonical_id": "lcn_8c42bbb2570499b9",
+          "package": "galileo_falling_bodies",
+          "version": "1.0.0"
         }
       ],
       "metadata": {
@@ -1597,6 +2559,11 @@
       "kind": "infer_action",
       "knowledge_type": "action",
       "member_local_nodes": [
+        {
+          "local_canonical_id": "lcn_645d38ebf9ed901b",
+          "package": "galileo_falling_bodies",
+          "version": "1.0.0"
+        },
         {
           "local_canonical_id": "lcn_645d38ebf9ed901b",
           "package": "galileo_falling_bodies",
@@ -1628,6 +2595,11 @@
           "local_canonical_id": "lcn_1f43c2bad5e7676d",
           "package": "galileo_falling_bodies",
           "version": "1.0.0"
+        },
+        {
+          "local_canonical_id": "lcn_1f43c2bad5e7676d",
+          "package": "galileo_falling_bodies",
+          "version": "1.0.0"
         }
       ],
       "metadata": {
@@ -1651,6 +2623,11 @@
       "kind": null,
       "knowledge_type": "claim",
       "member_local_nodes": [
+        {
+          "local_canonical_id": "lcn_fdc52d5c5fdf2374",
+          "package": "newton_principia",
+          "version": "1.0.0"
+        },
         {
           "local_canonical_id": "lcn_fdc52d5c5fdf2374",
           "package": "newton_principia",
@@ -1680,6 +2657,11 @@
           "local_canonical_id": "lcn_c0c476d32d805f12",
           "package": "newton_principia",
           "version": "1.0.0"
+        },
+        {
+          "local_canonical_id": "lcn_c0c476d32d805f12",
+          "package": "newton_principia",
+          "version": "1.0.0"
         }
       ],
       "metadata": {
@@ -1701,6 +2683,11 @@
       "kind": null,
       "knowledge_type": "claim",
       "member_local_nodes": [
+        {
+          "local_canonical_id": "lcn_2c502bb54f9d83c6",
+          "package": "newton_principia",
+          "version": "1.0.0"
+        },
         {
           "local_canonical_id": "lcn_2c502bb54f9d83c6",
           "package": "newton_principia",
@@ -1730,6 +2717,11 @@
           "local_canonical_id": "lcn_d8fc78dec7817285",
           "package": "newton_principia",
           "version": "1.0.0"
+        },
+        {
+          "local_canonical_id": "lcn_d8fc78dec7817285",
+          "package": "newton_principia",
+          "version": "1.0.0"
         }
       ],
       "metadata": {
@@ -1751,6 +2743,11 @@
       "kind": null,
       "knowledge_type": "claim",
       "member_local_nodes": [
+        {
+          "local_canonical_id": "lcn_1a3d5bc005ab292d",
+          "package": "newton_principia",
+          "version": "1.0.0"
+        },
         {
           "local_canonical_id": "lcn_1a3d5bc005ab292d",
           "package": "newton_principia",
@@ -1780,6 +2777,11 @@
           "local_canonical_id": "lcn_3c4eaab5efff7e66",
           "package": "newton_principia",
           "version": "1.0.0"
+        },
+        {
+          "local_canonical_id": "lcn_3c4eaab5efff7e66",
+          "package": "newton_principia",
+          "version": "1.0.0"
         }
       ],
       "metadata": {
@@ -1801,6 +2803,11 @@
       "kind": "infer_action",
       "knowledge_type": "action",
       "member_local_nodes": [
+        {
+          "local_canonical_id": "lcn_796d71209059ab17",
+          "package": "newton_principia",
+          "version": "1.0.0"
+        },
         {
           "local_canonical_id": "lcn_796d71209059ab17",
           "package": "newton_principia",
@@ -1843,6 +2850,11 @@
           "local_canonical_id": "lcn_344146af8b1932e5",
           "package": "newton_principia",
           "version": "1.0.0"
+        },
+        {
+          "local_canonical_id": "lcn_344146af8b1932e5",
+          "package": "newton_principia",
+          "version": "1.0.0"
         }
       ],
       "metadata": {
@@ -1873,6 +2885,11 @@
           "local_canonical_id": "lcn_e7e1b9c7cd9c6b39",
           "package": "newton_principia",
           "version": "1.0.0"
+        },
+        {
+          "local_canonical_id": "lcn_e7e1b9c7cd9c6b39",
+          "package": "newton_principia",
+          "version": "1.0.0"
         }
       ],
       "metadata": {
@@ -1894,6 +2911,11 @@
       "kind": null,
       "knowledge_type": "claim",
       "member_local_nodes": [
+        {
+          "local_canonical_id": "lcn_7a03cda4ec534c19",
+          "package": "newton_principia",
+          "version": "1.0.0"
+        },
         {
           "local_canonical_id": "lcn_7a03cda4ec534c19",
           "package": "newton_principia",
@@ -1952,6 +2974,11 @@
           "local_canonical_id": "lcn_390e41f5e4271931",
           "package": "newton_principia",
           "version": "1.0.0"
+        },
+        {
+          "local_canonical_id": "lcn_390e41f5e4271931",
+          "package": "newton_principia",
+          "version": "1.0.0"
         }
       ],
       "metadata": {
@@ -1973,6 +3000,11 @@
       "kind": null,
       "knowledge_type": "claim",
       "member_local_nodes": [
+        {
+          "local_canonical_id": "lcn_051bcb61bd2c88c1",
+          "package": "newton_principia",
+          "version": "1.0.0"
+        },
         {
           "local_canonical_id": "lcn_051bcb61bd2c88c1",
           "package": "newton_principia",
@@ -2031,6 +3063,11 @@
           "local_canonical_id": "lcn_cc1deda139d9572d",
           "package": "newton_principia",
           "version": "1.0.0"
+        },
+        {
+          "local_canonical_id": "lcn_cc1deda139d9572d",
+          "package": "newton_principia",
+          "version": "1.0.0"
         }
       ],
       "metadata": {
@@ -2061,6 +3098,11 @@
       "kind": "infer_action",
       "knowledge_type": "action",
       "member_local_nodes": [
+        {
+          "local_canonical_id": "lcn_dfd698abeb76807b",
+          "package": "newton_principia",
+          "version": "1.0.0"
+        },
         {
           "local_canonical_id": "lcn_dfd698abeb76807b",
           "package": "newton_principia",
@@ -2099,6 +3141,11 @@
           "local_canonical_id": "lcn_c23cb24b89936169",
           "package": "newton_principia",
           "version": "1.0.0"
+        },
+        {
+          "local_canonical_id": "lcn_c23cb24b89936169",
+          "package": "newton_principia",
+          "version": "1.0.0"
         }
       ],
       "metadata": {
@@ -2126,6 +3173,11 @@
           "local_canonical_id": "lcn_6e6e3a70f0f405aa",
           "package": "newton_principia",
           "version": "1.0.0"
+        },
+        {
+          "local_canonical_id": "lcn_6e6e3a70f0f405aa",
+          "package": "newton_principia",
+          "version": "1.0.0"
         }
       ],
       "metadata": {
@@ -2143,6 +3195,172 @@
         }
       ],
       "representative_content": "galileo_aristotle_contradicted 来自思想实验中的归谬法， 牛顿的 a=g 推导从理论上排除了\"下落速度与重量成正比\"的可能： 如果加速度不依赖质量，那么亚里士多德的 v∝W 就不是自然界的规律。 这与伽利略的归谬法反驳 来自基本力学定律的演绎推导。 二者在方法上不同，却都指向同一个判断： 亚里士多德的落体规律不能作为普遍定律保留。\n"
+    },
+    {
+      "global_canonical_id": "gcn_63441d0f10b9594b",
+      "kind": null,
+      "knowledge_type": "claim",
+      "member_local_nodes": [
+        {
+          "local_canonical_id": "lcn_a95c07b51e050bfb",
+          "package": "galileo_falling_bodies",
+          "version": "1.0.0"
+        }
+      ],
+      "metadata": {
+        "source_knowledge_names": [
+          "galileo_falling_bodies.tied_pair_faster_than_heavy"
+        ]
+      },
+      "parameters": [],
+      "provenance": [
+        {
+          "package": "galileo_falling_bodies",
+          "version": "1.0.0"
+        }
+      ],
+      "representative_content": "复合体 HL 总重量大于单独的重球 H，下落速度应快于 H。\n"
+    },
+    {
+      "global_canonical_id": "gcn_ace5c4b05a6733f6",
+      "kind": null,
+      "knowledge_type": "contradiction",
+      "member_local_nodes": [
+        {
+          "local_canonical_id": "lcn_b6bb05362b879e90",
+          "package": "galileo_falling_bodies",
+          "version": "1.0.0"
+        }
+      ],
+      "metadata": {
+        "between": [
+          "tied_pair_slower_than_heavy",
+          "tied_pair_faster_than_heavy"
+        ],
+        "source_knowledge_names": [
+          "galileo_falling_bodies.tied_balls_contradiction"
+        ]
+      },
+      "parameters": [],
+      "provenance": [
+        {
+          "package": "galileo_falling_bodies",
+          "version": "1.0.0"
+        }
+      ],
+      "representative_content": "同一定律对同一绑球系统同时预测\"更慢\"和\"更快\"，自相矛盾。\n"
+    },
+    {
+      "global_canonical_id": "gcn_7a25511aa794a411",
+      "kind": null,
+      "knowledge_type": "equivalence",
+      "member_local_nodes": [
+        {
+          "local_canonical_id": "lcn_679585c3ffaede4c",
+          "package": "newton_principia",
+          "version": "1.0.0"
+        }
+      ],
+      "metadata": {
+        "between": [
+          "acceleration_independent_of_mass",
+          "galileo_vacuum_prediction"
+        ],
+        "source_knowledge_names": [
+          "newton_principia.galileo_equivalence"
+        ]
+      },
+      "parameters": [],
+      "provenance": [
+        {
+          "package": "newton_principia",
+          "version": "1.0.0"
+        }
+      ],
+      "representative_content": "牛顿从 F=ma 和 F=mg 推导出的\"a=g 与质量无关\" 与伽利略从思想实验和经验分析预测的\"真空中不同重量物体等速下落\" 在物理含义上等价。 区别在于：伽利略是经验论证（归谬法 + 介质分析 + 斜面实验）， 牛顿是理论推导（从基本定律出发的演绎）。\n"
+    },
+    {
+      "global_canonical_id": "gcn_f6e95e82c7aee1e3",
+      "kind": null,
+      "knowledge_type": "contradiction",
+      "member_local_nodes": [
+        {
+          "local_canonical_id": "lcn_f3d163a634b10ae3",
+          "package": "newton_principia",
+          "version": "1.0.0"
+        }
+      ],
+      "metadata": {
+        "between": [
+          "acceleration_independent_of_mass",
+          "aristotle_law"
+        ],
+        "source_knowledge_names": [
+          "newton_principia.newton_vs_aristotle"
+        ]
+      },
+      "parameters": [],
+      "provenance": [
+        {
+          "package": "newton_principia",
+          "version": "1.0.0"
+        }
+      ],
+      "representative_content": "牛顿的 a=g（加速度与质量无关）直接矛盾于 亚里士多德的 v∝W（下落速度与重量成正比）。 前者是理论推导，后者是未经控制的经验归纳。\n"
+    },
+    {
+      "global_canonical_id": "gcn_ab199030f0a853e4",
+      "kind": "infer_action",
+      "knowledge_type": "action",
+      "member_local_nodes": [
+        {
+          "local_canonical_id": "lcn_eb4137719d96ee21",
+          "package": "newton_principia",
+          "version": "1.0.0"
+        }
+      ],
+      "metadata": {
+        "chain": "force_equating_chain",
+        "elaborated_from": "equate_forces",
+        "source_knowledge_names": [
+          "newton_principia.force_equating_chain__apply_equate_forces"
+        ]
+      },
+      "parameters": [],
+      "provenance": [
+        {
+          "package": "newton_principia",
+          "version": "1.0.0"
+        }
+      ],
+      "representative_content": "由 牛顿第二定律：物体的加速度与所受合外力成正比、与惯性质量成反比。 F = m_i × a，其中 m_i 是惯性质量。 得 F = m_i × a；由 万有引力定律：任意两个物体之间存在引力，大小为 F = G × M × m_g / r²， 其中 m_g 是引力质量，M 是地球质量，r 是距离，G 是引力常数 得 F = m_g × g。 因为作用在同一物体上的合力相等，所以 m_i × a = m_g × g。 又由 惯性质量与引力质量在实验精度范围内相等：m_i = m_g。 这是一个经验事实，牛顿注意到了它但没有给出理论解释。 知 m_i = m_g，两边约去质量，得 a = g。 加速度只取决于引力场强度 g，与物体质量完全无关。\n"
+    },
+    {
+      "global_canonical_id": "gcn_6044fb56978a1e24",
+      "kind": "infer_action",
+      "knowledge_type": "action",
+      "member_local_nodes": [
+        {
+          "local_canonical_id": "lcn_e346350bf23badcf",
+          "package": "newton_principia",
+          "version": "1.0.0"
+        }
+      ],
+      "metadata": {
+        "chain": "theoretical_contradiction_chain",
+        "elaborated_from": "derive_theoretical_contradiction",
+        "source_knowledge_names": [
+          "newton_principia.theoretical_contradiction_chain__apply_derive_theoretical_contradiction"
+        ]
+      },
+      "parameters": [],
+      "provenance": [
+        {
+          "package": "newton_principia",
+          "version": "1.0.0"
+        }
+      ],
+      "representative_content": "在同一引力场中，所有物体的自由落体加速度相同，与质量无关。 这是牛顿力学的理论推论，不依赖于任何具体实验。 断言加速度与质量无关；aristotle_law 断言速度与重量成正比。 在自由落体条件下（无介质阻力），这两个命题不能同时为真。 牛顿的推导基于更基本的力学定律，亚里士多德的归纳缺乏对混淆变量的控制， 因此应当接受前者、拒绝后者。\n"
     }
   ],
   "schema_version": "1.0"
