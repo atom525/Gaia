@@ -22,7 +22,7 @@ interface FactorNode {
   type: string;
   premises: string[];
   contexts: string[];
-  conclusion: string;
+  conclusion: string | null;
   source_ref: { package: string; module: string; knowledge_name: string } | null;
   metadata: Record<string, unknown> | null;
 }
@@ -54,10 +54,11 @@ const TYPE_COLORS: Record<string, string> = {
 };
 
 const FACTOR_COLORS: Record<string, string> = {
-  reasoning: "#595959",
+  infer: "#595959",
+  abstraction: "#595959",
   instantiation: "#8c8c8c",
-  mutex_constraint: "#cf1322",
-  equiv_constraint: "#08979c",
+  contradiction: "#cf1322",
+  equivalence: "#08979c",
 };
 
 const PACKAGE_COLORS: Record<string, string> = {};
@@ -133,7 +134,7 @@ function buildVisGraph(graph: GlobalGraph) {
   }
 
   for (const f of graph.factor_nodes) {
-    const edgeType = (f.metadata?.edge_type as string) ?? f.type;
+    const edgeType = f.type;
     const srcPkg = f.source_ref?.package ?? "";
 
     nodes.push({
@@ -159,13 +160,15 @@ function buildVisGraph(graph: GlobalGraph) {
         color: { color: "#595959" },
       });
     }
-    edges.push({
-      id: `${f.factor_id}:conclusion`,
-      from: f.factor_id,
-      to: f.conclusion,
-      arrows: "to",
-      color: { color: f.type.includes("constraint") ? FACTOR_COLORS[f.type] : "#595959" },
-    });
+    if (f.conclusion) {
+      edges.push({
+        id: `${f.factor_id}:conclusion`,
+        from: f.factor_id,
+        to: f.conclusion,
+        arrows: "to",
+        color: { color: f.type === "contradiction" || f.type === "equivalence" ? FACTOR_COLORS[f.type] : "#595959" },
+      });
+    }
   }
 
   return { nodes, edges };
@@ -321,7 +324,6 @@ function NodeDrawer({
         <div>
           <div style={{ marginBottom: 12 }}>
             <Tag color={FACTOR_COLORS[fNode.type]}>{fNode.type}</Tag>
-            {fNode.metadata?.edge_type && <Tag>{fNode.metadata.edge_type as string}</Tag>}
             {fNode.source_ref && <Tag color={getPackageColor(fNode.source_ref.package)}>{fNode.source_ref.package}</Tag>}
           </div>
           <Typography.Title level={5}>

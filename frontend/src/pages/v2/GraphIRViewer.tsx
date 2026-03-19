@@ -31,7 +31,7 @@ interface FactorNode {
   type: string;
   premises: string[];
   contexts: string[];
-  conclusion: string;
+  conclusion: string | null;
   source_ref: { module: string; knowledge_name: string } | null;
   metadata: Record<string, unknown> | null;
 }
@@ -99,10 +99,11 @@ const TYPE_COLORS: Record<string, string> = {
 };
 
 const FACTOR_COLORS: Record<string, string> = {
-  reasoning: "#595959",
+  infer: "#595959",
+  abstraction: "#595959",
   instantiation: "#8c8c8c",
-  mutex_constraint: "#cf1322",
-  equiv_constraint: "#08979c",
+  contradiction: "#cf1322",
+  equivalence: "#08979c",
 };
 
 // ── Vis transform ──
@@ -173,7 +174,7 @@ function buildVisGraph(
   for (const f of localGraph.factor_nodes) {
     const name = f.source_ref?.knowledge_name ?? f.factor_id.slice(0, 10);
     const cp = params?.factor_parameters[f.factor_id]?.conditional_probability;
-    const edgeType = (f.metadata?.edge_type as string) ?? f.type;
+    const edgeType = f.type;
 
     const tooltip = [
       `[factor: ${f.type}] ${name}`,
@@ -215,15 +216,17 @@ function buildVisGraph(
         dashes: true,
       });
     }
-    edges.push({
-      id: `${f.factor_id}->${f.conclusion}`,
-      from: f.factor_id,
-      to: f.conclusion,
-      arrows: "to",
-      color: { color: f.type.includes("constraint") ? FACTOR_COLORS[f.type] : "#595959" },
-      label: cp != null ? `p=${cp.toFixed(2)}` : undefined,
-      font: { size: 9, color: "#888" },
-    });
+    if (f.conclusion) {
+      edges.push({
+        id: `${f.factor_id}->${f.conclusion}`,
+        from: f.factor_id,
+        to: f.conclusion,
+        arrows: "to",
+        color: { color: f.type === "contradiction" || f.type === "equivalence" ? FACTOR_COLORS[f.type] : "#595959" },
+        label: cp != null ? `p=${cp.toFixed(2)}` : undefined,
+        font: { size: 9, color: "#888" },
+      });
+    }
   }
 
   return { nodes, edges };
@@ -404,9 +407,6 @@ function NodeDrawer({
         <div>
           <div style={{ marginBottom: 12 }}>
             <Tag color={FACTOR_COLORS[fNode.type]}>{fNode.type}</Tag>
-            {fNode.metadata?.edge_type && (
-              <Tag>{fNode.metadata.edge_type as string}</Tag>
-            )}
           </div>
           <Typography.Title level={5}>
             {fNode.source_ref?.knowledge_name ?? fNode.factor_id}
@@ -428,10 +428,12 @@ function NodeDrawer({
               ))}
             </div>
           )}
-          <div style={{ marginTop: 8 }}>
-            <Typography.Text>Conclusion: </Typography.Text>
-            <Typography.Text code style={{ fontSize: 10 }}>{fNode.conclusion}</Typography.Text>
-          </div>
+          {fNode.conclusion && (
+            <div style={{ marginTop: 8 }}>
+              <Typography.Text>Conclusion: </Typography.Text>
+              <Typography.Text code style={{ fontSize: 10 }}>{fNode.conclusion}</Typography.Text>
+            </div>
+          )}
           {params?.factor_parameters[fNode.factor_id] && (
             <div style={{ marginTop: 12 }}>
               <Typography.Text strong>
@@ -456,8 +458,8 @@ function StatsBar({ rawGraph, localGraph, params }: {
   const lcnNodes = localGraph.knowledge_nodes.length;
   const merged = rawNodes - lcnNodes;
   const factors = localGraph.factor_nodes.length;
-  const reasoningFactors = localGraph.factor_nodes.filter((f) => f.type === "reasoning").length;
-  const constraintFactors = localGraph.factor_nodes.filter((f) => f.type.includes("constraint")).length;
+  const inferFactors = localGraph.factor_nodes.filter((f) => f.type === "infer" || f.type === "abstraction").length;
+  const constraintFactors = localGraph.factor_nodes.filter((f) => f.type === "contradiction" || f.type === "equivalence").length;
 
   return (
     <div style={{ display: "flex", gap: 24, flexWrap: "wrap", alignItems: "center" }}>
@@ -477,7 +479,7 @@ function StatsBar({ rawGraph, localGraph, params }: {
       </span>
       <span>
         <Typography.Text strong>{factors}</Typography.Text>
-        <Typography.Text type="secondary"> factors ({reasoningFactors} reasoning, {constraintFactors} constraint)</Typography.Text>
+        <Typography.Text type="secondary"> factors ({inferFactors} infer, {constraintFactors} constraint)</Typography.Text>
       </span>
       {params && (
         <span>
