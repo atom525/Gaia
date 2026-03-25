@@ -11,7 +11,7 @@ Graph IR 结构定义见 [graph-ir.md](graph-ir.md)。概率参数见 [parameter
 ```
 BeliefState:
     bp_run_id:            str              # 唯一运行 ID
-    timestamp:            str              # ISO 8601
+    created_at:           str              # ISO 8601
 
     # ── 重现条件 ──
     resolution_policy:    str              # "latest" | "source:<source_id>"

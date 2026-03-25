@@ -165,7 +165,7 @@ BeliefState 是 BP 在 GlobalCanonicalGraph 上的纯输出——后验信念值
 ```json
 {
   "bp_run_id": "uuid-...",
-  "timestamp": "2026-03-24T12:00:00Z",
+  "created_at": "2026-03-24T12:00:00Z",
   "resolution_policy": "latest",
   "prior_cutoff": "2026-03-24T12:00:00Z",
   "beliefs": {
