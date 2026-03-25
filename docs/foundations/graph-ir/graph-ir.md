@@ -137,7 +137,7 @@ metadata:
 
 开放的命题模式，含自由变量。不直接参与 BP。核心作用是**桥梁**：将 setting 或 question 包装为 claim，使其获得概率语义。Template 到 claim 的实例化是 entailment 的特例（probability=1.0）。
 
-示例：`falls_at_rate(x, medium)`、`{method} can be applied in this {context}`、`∀x. wave(x) → diffraction(x)`。
+示例：`falls_at_rate({x}, {medium})`、`{method} can be applied in this {context}`、`∀{x}. wave({x}) → diffraction({x})`。
 
 ---
 
