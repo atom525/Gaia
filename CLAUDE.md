@@ -209,7 +209,7 @@ docs/foundations/cli/          → CLI (local authoring, compilation, inference)
 docs/foundations/lkm/          → LKM server (curation, global inference, storage, API)
 ```
 
-Historical docs are in `docs/archive/`. Planning docs are in `docs/superpowers/plans/`.
+Historical docs are in `docs/archive/`. Planning docs are in `docs/plans/`. Design specs are in `docs/specs/`.
 
 ## Documentation Policy
 

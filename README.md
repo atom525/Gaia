@@ -116,7 +116,8 @@ frontend/            → React dashboard
 |------|---------|
 | [docs/foundations/language/](docs/foundations/language/) | Language spec, design, design rationale |
 | [docs/foundations/](docs/foundations/) | Domain model, Graph IR, BP theory, storage schema |
-| [docs/superpowers/specs/](docs/superpowers/specs/) | Design specs (Graph IR compiler, v4 DSL, etc.) |
+| [docs/specs/](docs/specs/) | Design specs (Graph IR compiler, v4 DSL, etc.) |
+| [docs/plans/](docs/plans/) | Implementation plans |
 | [docs/module-map.md](docs/module-map.md) | Current repo structure and module boundaries |
 
 ## Testing
