@@ -1,0 +1,47 @@
+{
+  "factor_parameters": {
+    "f_1234b74e3e937cd7": {
+      "conditional_probability": 1.0
+    },
+    "f_3f015e1eb3f49b65": {
+      "conditional_probability": 1.0
+    },
+    "f_5199e6abf57968af": {
+      "conditional_probability": 1.0
+    },
+    "f_67caae253e50085c": {
+      "conditional_probability": 1.0
+    },
+    "f_ae1e586a0f398dcd": {
+      "conditional_probability": 1.0
+    },
+    "f_d1408f99792b6795": {
+      "conditional_probability": 1.0
+    },
+    "f_f11c9c867554a0e2": {
+      "conditional_probability": 1.0
+    }
+  },
+  "graph_hash": "sha256:0164148371852c49ec52df749c3ea7df49a27aa40ad59932b8f151b705ac85c4",
+  "graph_scope": "local",
+  "metadata": null,
+  "node_priors": {
+    "lcn_0b7fe135166f9e03": 0.5,
+    "lcn_334f23cefdb521e7": 0.5,
+    "lcn_4d41ba1e4a665d14": 0.5,
+    "lcn_6e9aaecba31ea749": 0.5,
+    "lcn_87e1a2f4010102a9": 0.5,
+    "lcn_8fa378e380a8d015": 1.0,
+    "lcn_a2fce7dc9cd002eb": 0.5,
+    "lcn_a5bb635a1c0b7755": 0.5,
+    "lcn_c40e7630fea9c153": 0.5,
+    "lcn_d5d40e7481e3035b": 0.5,
+    "lcn_d9a708604eb51daf": 0.5,
+    "lcn_daa475c7d728f04c": 0.5,
+    "lcn_e39b95a24714f3fd": 0.5,
+    "lcn_e96529ee10eb525d": 0.5,
+    "lcn_e9e90101869e19f2": 0.5,
+    "lcn_ec71f7779e35bfab": 0.5
+  },
+  "schema_version": "1.0"
+}

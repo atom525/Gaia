@@ -1,0 +1,30 @@
+{
+  "factor_parameters": {
+    "f_197134a4a9e3f05d": {
+      "conditional_probability": 1.0
+    },
+    "f_aeb71629948e3506": {
+      "conditional_probability": 1.0
+    },
+    "f_ebf7ae8a3a950ace": {
+      "conditional_probability": 1.0
+    }
+  },
+  "graph_hash": "sha256:d43890f4b16bcb70252adba51396f199b52f94faf003b30a309b4417326cf376",
+  "graph_scope": "local",
+  "metadata": null,
+  "node_priors": {
+    "lcn_01652b4c911e9caf": 0.5,
+    "lcn_18de47e80c37ae34": 0.5,
+    "lcn_19a11ee542a2d080": 0.5,
+    "lcn_280baa651266f0ef": 1.0,
+    "lcn_333610d7459570bb": 1.0,
+    "lcn_5cea6273898b88bf": 0.5,
+    "lcn_68af2bc47621c7c0": 0.5,
+    "lcn_6f10cf5b90c4e2ae": 0.5,
+    "lcn_9d4fb4db6a77b910": 0.5,
+    "lcn_a7281f55048a1e0c": 0.5,
+    "lcn_b02ccc343327ee33": 0.5
+  },
+  "schema_version": "1.0"
+}

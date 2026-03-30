@@ -1,0 +1,80 @@
+{
+  "ir_hash": "sha256:c3241e127904df069826b86d887ed0f84a321e688b293c8e5e6db080ea1cdb5b",
+  "priors": [
+    {
+      "created_at": "2026-03-30T02:41:56.016311Z",
+      "gcn_id": "lcn_01652b4c911e9caf",
+      "source_id": "pipeline:dark_energy",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.016332Z",
+      "gcn_id": "lcn_18de47e80c37ae34",
+      "source_id": "pipeline:dark_energy",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.016340Z",
+      "gcn_id": "lcn_19a11ee542a2d080",
+      "source_id": "pipeline:dark_energy",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.016347Z",
+      "gcn_id": "lcn_5cea6273898b88bf",
+      "source_id": "pipeline:dark_energy",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.016353Z",
+      "gcn_id": "lcn_68af2bc47621c7c0",
+      "source_id": "pipeline:dark_energy",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.016359Z",
+      "gcn_id": "lcn_9d4fb4db6a77b910",
+      "source_id": "pipeline:dark_energy",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.016364Z",
+      "gcn_id": "lcn_a7281f55048a1e0c",
+      "source_id": "pipeline:dark_energy",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.016369Z",
+      "gcn_id": "lcn_b02ccc343327ee33",
+      "source_id": "pipeline:dark_energy",
+      "value": 0.5
+    }
+  ],
+  "scope": "local",
+  "strategy_params": [
+    {
+      "conditional_probabilities": [
+        0.999
+      ],
+      "created_at": "2026-03-30T02:41:56.016383Z",
+      "source_id": "pipeline:dark_energy",
+      "strategy_id": "lcs_197134a4a9e3f05d"
+    },
+    {
+      "conditional_probabilities": [
+        0.999
+      ],
+      "created_at": "2026-03-30T02:41:56.016414Z",
+      "source_id": "pipeline:dark_energy",
+      "strategy_id": "lcs_aeb71629948e3506"
+    },
+    {
+      "conditional_probabilities": [
+        0.999
+      ],
+      "created_at": "2026-03-30T02:41:56.016422Z",
+      "source_id": "pipeline:dark_energy",
+      "strategy_id": "lcs_ebf7ae8a3a950ace"
+    }
+  ]
+}

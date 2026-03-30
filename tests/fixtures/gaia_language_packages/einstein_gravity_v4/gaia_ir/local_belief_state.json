@@ -1,0 +1,31 @@
+{
+  "beliefs": {
+    "lcn_04461b72ab51ba4d": 0.586686,
+    "lcn_0ac86561817415c1": 0.460697,
+    "lcn_2a703e0352e7267e": 0.46059,
+    "lcn_4cdd788fc5ba66a9": 0.423337,
+    "lcn_6a8016414eb6902c": 0.452376,
+    "lcn_955d2ce91879c4fb": 0.587441,
+    "lcn_a40e0ad721d820e7": 0.423337,
+    "lcn_aa6dfd2348a2f1c9": 0.311012,
+    "lcn_b181b5aa5f52e71f": 0.38219,
+    "lcn_be6c210d194dc366": 0.294397,
+    "lcn_bf576a333585ea01": 0.436701,
+    "lcn_e1de9cbcfef9bf50": 0.460697,
+    "lcn_e7314b70a9b3decb": 0.47633,
+    "lcn_fdaf55851dd1c165": 0.527817
+  },
+  "bp_run_id": "8c934f24-61b4-4520-b57c-23a582230fd9",
+  "compilation_summary": {
+    "elapsed_ms": 3.41,
+    "is_exact": true,
+    "method_used": "jt",
+    "treewidth": 3
+  },
+  "converged": true,
+  "created_at": "2026-03-30T02:41:56.052695Z",
+  "iterations": 2,
+  "max_residual": 0.0,
+  "prior_cutoff": "2026-03-30T02:41:56.052695Z",
+  "resolution_policy": "latest"
+}

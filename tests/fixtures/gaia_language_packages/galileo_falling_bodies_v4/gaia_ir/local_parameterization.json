@@ -1,0 +1,102 @@
+{
+  "ir_hash": "sha256:ba0d1ba4b08fcd92c764a29f2af25fd86d63e41a3aaa2167dc245b0f42f824e2",
+  "priors": [
+    {
+      "created_at": "2026-03-30T02:41:56.082900Z",
+      "gcn_id": "lcn_0ff2baf702f1c0f8",
+      "source_id": "pipeline:galileo_falling_bodies",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.082914Z",
+      "gcn_id": "lcn_3becf1aa7ae267e2",
+      "source_id": "pipeline:galileo_falling_bodies",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.082918Z",
+      "gcn_id": "lcn_5382b5d7d700a1b5",
+      "source_id": "pipeline:galileo_falling_bodies",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.082921Z",
+      "gcn_id": "lcn_61b525847b0bfd1e",
+      "source_id": "pipeline:galileo_falling_bodies",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.082925Z",
+      "gcn_id": "lcn_61ce3920c1656d4c",
+      "source_id": "pipeline:galileo_falling_bodies",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.082929Z",
+      "gcn_id": "lcn_a1f021652cba3771",
+      "source_id": "pipeline:galileo_falling_bodies",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.082932Z",
+      "gcn_id": "lcn_ac060a021bcd9836",
+      "source_id": "pipeline:galileo_falling_bodies",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.082935Z",
+      "gcn_id": "lcn_b7ab50d3c24769bb",
+      "source_id": "pipeline:galileo_falling_bodies",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.082939Z",
+      "gcn_id": "lcn_fe4498bbf1e99f03",
+      "source_id": "pipeline:galileo_falling_bodies",
+      "value": 0.5
+    }
+  ],
+  "scope": "local",
+  "strategy_params": [
+    {
+      "conditional_probabilities": [
+        0.999
+      ],
+      "created_at": "2026-03-30T02:41:56.082947Z",
+      "source_id": "pipeline:galileo_falling_bodies",
+      "strategy_id": "lcs_4180c1894706092d"
+    },
+    {
+      "conditional_probabilities": [
+        0.999
+      ],
+      "created_at": "2026-03-30T02:41:56.082953Z",
+      "source_id": "pipeline:galileo_falling_bodies",
+      "strategy_id": "lcs_53a57742e38706a1"
+    },
+    {
+      "conditional_probabilities": [
+        0.999
+      ],
+      "created_at": "2026-03-30T02:41:56.082957Z",
+      "source_id": "pipeline:galileo_falling_bodies",
+      "strategy_id": "lcs_5f9f1787feb4280c"
+    },
+    {
+      "conditional_probabilities": [
+        0.999
+      ],
+      "created_at": "2026-03-30T02:41:56.082961Z",
+      "source_id": "pipeline:galileo_falling_bodies",
+      "strategy_id": "lcs_6df42f63bda7040a"
+    },
+    {
+      "conditional_probabilities": [
+        0.999
+      ],
+      "created_at": "2026-03-30T02:41:56.082965Z",
+      "source_id": "pipeline:galileo_falling_bodies",
+      "strategy_id": "lcs_90fe42cb14b615e4"
+    }
+  ]
+}

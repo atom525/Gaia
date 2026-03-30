@@ -1,0 +1,140 @@
+{
+  "ir_hash": "sha256:df79a0e6911328f648cb0b92418e349ca00027bf21333a06dc47143007a77463",
+  "priors": [
+    {
+      "created_at": "2026-03-30T02:41:56.049076Z",
+      "gcn_id": "lcn_04461b72ab51ba4d",
+      "source_id": "pipeline:einstein_gravity",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.049090Z",
+      "gcn_id": "lcn_0ac86561817415c1",
+      "source_id": "pipeline:einstein_gravity",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.049095Z",
+      "gcn_id": "lcn_2a703e0352e7267e",
+      "source_id": "pipeline:einstein_gravity",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.049099Z",
+      "gcn_id": "lcn_4cdd788fc5ba66a9",
+      "source_id": "pipeline:einstein_gravity",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.049102Z",
+      "gcn_id": "lcn_6a8016414eb6902c",
+      "source_id": "pipeline:einstein_gravity",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.049106Z",
+      "gcn_id": "lcn_955d2ce91879c4fb",
+      "source_id": "pipeline:einstein_gravity",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.049109Z",
+      "gcn_id": "lcn_a40e0ad721d820e7",
+      "source_id": "pipeline:einstein_gravity",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.049113Z",
+      "gcn_id": "lcn_aa6dfd2348a2f1c9",
+      "source_id": "pipeline:einstein_gravity",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.049116Z",
+      "gcn_id": "lcn_b181b5aa5f52e71f",
+      "source_id": "pipeline:einstein_gravity",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.049119Z",
+      "gcn_id": "lcn_be6c210d194dc366",
+      "source_id": "pipeline:einstein_gravity",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.049122Z",
+      "gcn_id": "lcn_bf576a333585ea01",
+      "source_id": "pipeline:einstein_gravity",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.049124Z",
+      "gcn_id": "lcn_e1de9cbcfef9bf50",
+      "source_id": "pipeline:einstein_gravity",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.049128Z",
+      "gcn_id": "lcn_e7314b70a9b3decb",
+      "source_id": "pipeline:einstein_gravity",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.049131Z",
+      "gcn_id": "lcn_fdaf55851dd1c165",
+      "source_id": "pipeline:einstein_gravity",
+      "value": 0.5
+    }
+  ],
+  "scope": "local",
+  "strategy_params": [
+    {
+      "conditional_probabilities": [
+        0.999
+      ],
+      "created_at": "2026-03-30T02:41:56.049138Z",
+      "source_id": "pipeline:einstein_gravity",
+      "strategy_id": "lcs_1598292682433535"
+    },
+    {
+      "conditional_probabilities": [
+        0.999
+      ],
+      "created_at": "2026-03-30T02:41:56.049144Z",
+      "source_id": "pipeline:einstein_gravity",
+      "strategy_id": "lcs_1d5157be231e90af"
+    },
+    {
+      "conditional_probabilities": [
+        0.999
+      ],
+      "created_at": "2026-03-30T02:41:56.049148Z",
+      "source_id": "pipeline:einstein_gravity",
+      "strategy_id": "lcs_2ca3b9f035a2ca77"
+    },
+    {
+      "conditional_probabilities": [
+        0.999
+      ],
+      "created_at": "2026-03-30T02:41:56.049152Z",
+      "source_id": "pipeline:einstein_gravity",
+      "strategy_id": "lcs_74c6d040eed7e7f7"
+    },
+    {
+      "conditional_probabilities": [
+        0.999
+      ],
+      "created_at": "2026-03-30T02:41:56.049155Z",
+      "source_id": "pipeline:einstein_gravity",
+      "strategy_id": "lcs_cf8f408e92949cf2"
+    },
+    {
+      "conditional_probabilities": [
+        0.999
+      ],
+      "created_at": "2026-03-30T02:41:56.049159Z",
+      "source_id": "pipeline:einstein_gravity",
+      "strategy_id": "lcs_eef7c2b2ede0a7b7"
+    }
+  ]
+}

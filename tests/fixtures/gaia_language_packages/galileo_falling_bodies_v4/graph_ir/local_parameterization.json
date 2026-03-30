@@ -1,0 +1,38 @@
+{
+  "factor_parameters": {
+    "f_4180c1894706092d": {
+      "conditional_probability": 1.0
+    },
+    "f_53a57742e38706a1": {
+      "conditional_probability": 1.0
+    },
+    "f_5f9f1787feb4280c": {
+      "conditional_probability": 1.0
+    },
+    "f_6df42f63bda7040a": {
+      "conditional_probability": 1.0
+    },
+    "f_90fe42cb14b615e4": {
+      "conditional_probability": 1.0
+    }
+  },
+  "graph_hash": "sha256:fe4742ebb3ce7bb0cb4110b9c8286a73995941d8026f62ce9749dc519ca421aa",
+  "graph_scope": "local",
+  "metadata": null,
+  "node_priors": {
+    "lcn_030e61a51f00e6f7": 0.5,
+    "lcn_0ff2baf702f1c0f8": 0.5,
+    "lcn_305daea77b5970c2": 0.5,
+    "lcn_3becf1aa7ae267e2": 0.5,
+    "lcn_5382b5d7d700a1b5": 0.5,
+    "lcn_61b525847b0bfd1e": 0.5,
+    "lcn_61ce3920c1656d4c": 0.5,
+    "lcn_692334134df58033": 1.0,
+    "lcn_a1f021652cba3771": 0.5,
+    "lcn_ac060a021bcd9836": 0.5,
+    "lcn_b7ab50d3c24769bb": 0.5,
+    "lcn_e6d6e0ae9e01b889": 1.0,
+    "lcn_fe4498bbf1e99f03": 0.5
+  },
+  "schema_version": "1.0"
+}

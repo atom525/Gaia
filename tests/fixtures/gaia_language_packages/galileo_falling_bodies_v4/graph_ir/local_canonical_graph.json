@@ -1,0 +1,388 @@
+{
+  "factor_nodes": [
+    {
+      "conclusion": "lcn_0ff2baf702f1c0f8",
+      "contexts": [],
+      "factor_id": "f_4180c1894706092d",
+      "metadata": {
+        "edge_type": "deduction"
+      },
+      "premises": [
+        "lcn_a1f021652cba3771"
+      ],
+      "source_ref": {
+        "knowledge_name": "aristotle.heavier_falls_faster",
+        "module": "default",
+        "package": "galileo_falling_bodies",
+        "version": "4.0.0"
+      },
+      "type": "infer"
+    },
+    {
+      "conclusion": "lcn_ac060a021bcd9836",
+      "contexts": [],
+      "factor_id": "f_90fe42cb14b615e4",
+      "metadata": {
+        "edge_type": "deduction"
+      },
+      "premises": [
+        "lcn_0ff2baf702f1c0f8",
+        "lcn_692334134df58033"
+      ],
+      "source_ref": {
+        "knowledge_name": "galileo.composite_is_slower",
+        "module": "default",
+        "package": "galileo_falling_bodies",
+        "version": "4.0.0"
+      },
+      "type": "infer"
+    },
+    {
+      "conclusion": "lcn_61ce3920c1656d4c",
+      "contexts": [],
+      "factor_id": "f_5f9f1787feb4280c",
+      "metadata": {
+        "edge_type": "deduction"
+      },
+      "premises": [
+        "lcn_0ff2baf702f1c0f8",
+        "lcn_692334134df58033"
+      ],
+      "source_ref": {
+        "knowledge_name": "galileo.composite_is_faster",
+        "module": "default",
+        "package": "galileo_falling_bodies",
+        "version": "4.0.0"
+      },
+      "type": "infer"
+    },
+    {
+      "conclusion": "lcn_fe4498bbf1e99f03",
+      "contexts": [],
+      "factor_id": "f_6df42f63bda7040a",
+      "metadata": {
+        "edge_type": "deduction"
+      },
+      "premises": [
+        "lcn_3becf1aa7ae267e2"
+      ],
+      "source_ref": {
+        "knowledge_name": "galileo.air_resistance_is_confound",
+        "module": "default",
+        "package": "galileo_falling_bodies",
+        "version": "4.0.0"
+      },
+      "type": "infer"
+    },
+    {
+      "conclusion": "lcn_61b525847b0bfd1e",
+      "contexts": [],
+      "factor_id": "f_53a57742e38706a1",
+      "metadata": {
+        "edge_type": "deduction"
+      },
+      "premises": [
+        "lcn_5382b5d7d700a1b5",
+        "lcn_fe4498bbf1e99f03",
+        "lcn_b7ab50d3c24769bb",
+        "lcn_e6d6e0ae9e01b889"
+      ],
+      "source_ref": {
+        "knowledge_name": "galileo.vacuum_prediction",
+        "module": "default",
+        "package": "galileo_falling_bodies",
+        "version": "4.0.0"
+      },
+      "type": "infer"
+    },
+    {
+      "conclusion": "lcn_5382b5d7d700a1b5",
+      "contexts": [],
+      "factor_id": "f_db5b8199b85fb1a7",
+      "metadata": {
+        "edge_type": "relation_contradiction"
+      },
+      "premises": [
+        "lcn_ac060a021bcd9836",
+        "lcn_61ce3920c1656d4c"
+      ],
+      "source_ref": {
+        "knowledge_name": "galileo.tied_balls_contradiction",
+        "module": "default",
+        "package": "galileo_falling_bodies",
+        "version": "4.0.0"
+      },
+      "type": "contradiction"
+    }
+  ],
+  "knowledge_nodes": [
+    {
+      "kind": null,
+      "knowledge_type": "question",
+      "local_canonical_id": "lcn_305daea77b5970c2",
+      "member_raw_node_ids": [
+        "raw_208701d832b05e65"
+      ],
+      "metadata": null,
+      "package": "galileo_falling_bodies",
+      "parameters": [],
+      "representative_content": "下落的速率是否真正取决于物体的重量？   如果 \" 重者下落更快 \" 只是空气阻力造成的表象，   那么在思想实验、控制条件实验以及真空极限下，   应当分别看到怎样的结果？",
+      "source_refs": [
+        {
+          "knowledge_name": "motivation.main_question",
+          "module": "default",
+          "package": "galileo_falling_bodies",
+          "version": "4.0.0"
+        }
+      ]
+    },
+    {
+      "kind": null,
+      "knowledge_type": "setting",
+      "local_canonical_id": "lcn_692334134df58033",
+      "member_raw_node_ids": [
+        "raw_0562ec9b4f1e411b"
+      ],
+      "metadata": null,
+      "package": "galileo_falling_bodies",
+      "parameters": [],
+      "representative_content": "想象一个重球   H   和一个轻球   L   从同一高度落下。   先分别考虑它们各自的 \" 自然下落速度 \" ，   再考虑把二者用细绳绑成复合体   H L   后一起下落，会得到什么结果。",
+      "source_refs": [
+        {
+          "knowledge_name": "setting.thought_experiment_env",
+          "module": "default",
+          "package": "galileo_falling_bodies",
+          "version": "4.0.0"
+        }
+      ]
+    },
+    {
+      "kind": null,
+      "knowledge_type": "setting",
+      "local_canonical_id": "lcn_e6d6e0ae9e01b889",
+      "member_raw_node_ids": [
+        "raw_1aade6c040d7de83"
+      ],
+      "metadata": null,
+      "package": "galileo_falling_bodies",
+      "parameters": [],
+      "representative_content": "一个理想化的无空气阻力环境，   只保留重力作用，不让介质阻力参与落体过程。",
+      "source_refs": [
+        {
+          "knowledge_name": "setting.vacuum_env",
+          "module": "default",
+          "package": "galileo_falling_bodies",
+          "version": "4.0.0"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "knowledge_type": "claim",
+      "local_canonical_id": "lcn_a1f021652cba3771",
+      "member_raw_node_ids": [
+        "raw_179141c1af4b5c27"
+      ],
+      "metadata": null,
+      "package": "galileo_falling_bodies",
+      "parameters": [],
+      "representative_content": "日常生活中，石头比羽毛下落更快、   铁球比木球更快，似乎重者总是先着地。",
+      "source_refs": [
+        {
+          "knowledge_name": "aristotle.everyday_observation",
+          "module": "default",
+          "package": "galileo_falling_bodies",
+          "version": "4.0.0"
+        }
+      ]
+    },
+    {
+      "kind": null,
+      "knowledge_type": "claim",
+      "local_canonical_id": "lcn_0ff2baf702f1c0f8",
+      "member_raw_node_ids": [
+        "raw_a414a55329e73ff1"
+      ],
+      "metadata": null,
+      "package": "galileo_falling_bodies",
+      "parameters": [],
+      "representative_content": "物体下落的速度与其重量成正比——重者下落更快。",
+      "source_refs": [
+        {
+          "knowledge_name": "aristotle.heavier_falls_faster",
+          "module": "default",
+          "package": "galileo_falling_bodies",
+          "version": "4.0.0"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "knowledge_type": "claim",
+      "local_canonical_id": "lcn_3becf1aa7ae267e2",
+      "member_raw_node_ids": [
+        "raw_ee699f7fcf4f3f33"
+      ],
+      "metadata": null,
+      "package": "galileo_falling_bodies",
+      "parameters": [],
+      "representative_content": "在水、油、空气等不同介质中比较轻重物体的下落，   会发现介质越稠密，速度差异越明显；介质越稀薄，差异越不明显。",
+      "source_refs": [
+        {
+          "knowledge_name": "galileo.medium_density_observation",
+          "module": "default",
+          "package": "galileo_falling_bodies",
+          "version": "4.0.0"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "knowledge_type": "claim",
+      "local_canonical_id": "lcn_b7ab50d3c24769bb",
+      "member_raw_node_ids": [
+        "raw_c219be32a31435cf"
+      ],
+      "metadata": null,
+      "package": "galileo_falling_bodies",
+      "parameters": [],
+      "representative_content": "伽利略的斜面实验把下落过程放慢到可测量尺度后显示：   不同重量的小球在相同斜面条件下呈现近似一致的加速趋势，   与 \" 重量越大速度越大 \" 的简单比例律并不相符。",
+      "source_refs": [
+        {
+          "knowledge_name": "galileo.inclined_plane_observation",
+          "module": "default",
+          "package": "galileo_falling_bodies",
+          "version": "4.0.0"
+        }
+      ]
+    },
+    {
+      "kind": null,
+      "knowledge_type": "claim",
+      "local_canonical_id": "lcn_ac060a021bcd9836",
+      "member_raw_node_ids": [
+        "raw_9eccf12d0cb7856b"
+      ],
+      "metadata": null,
+      "package": "galileo_falling_bodies",
+      "parameters": [],
+      "representative_content": "假设 \" 重者下落更快 \" ，将重球（ H ）与轻球（ L ）绑成复合体（ H L ），   则   H L   的下落速度慢于   H   单独下落。",
+      "source_refs": [
+        {
+          "knowledge_name": "galileo.composite_is_slower",
+          "module": "default",
+          "package": "galileo_falling_bodies",
+          "version": "4.0.0"
+        }
+      ]
+    },
+    {
+      "kind": null,
+      "knowledge_type": "claim",
+      "local_canonical_id": "lcn_61ce3920c1656d4c",
+      "member_raw_node_ids": [
+        "raw_bec1699034bfede0"
+      ],
+      "metadata": null,
+      "package": "galileo_falling_bodies",
+      "parameters": [],
+      "representative_content": "假设 \" 重者下落更快 \" ，将重球（ H ）与轻球（ L ）绑成复合体（ H L ），   则   H L   的下落速度快于   H   单独下落。",
+      "source_refs": [
+        {
+          "knowledge_name": "galileo.composite_is_faster",
+          "module": "default",
+          "package": "galileo_falling_bodies",
+          "version": "4.0.0"
+        }
+      ]
+    },
+    {
+      "kind": null,
+      "knowledge_type": "contradiction",
+      "local_canonical_id": "lcn_5382b5d7d700a1b5",
+      "member_raw_node_ids": [
+        "raw_e376fd83428aefa8"
+      ],
+      "metadata": {
+        "between": [
+          "galileo.composite_is_slower",
+          "galileo.composite_is_faster"
+        ]
+      },
+      "package": "galileo_falling_bodies",
+      "parameters": [],
+      "representative_content": "将重球（ H ）与轻球（ L ）绑成复合体（ H L ），   \" H L   慢于   H \" 与 \" H L   快于   H \" 两个预测互相矛盾。",
+      "source_refs": [
+        {
+          "knowledge_name": "galileo.tied_balls_contradiction",
+          "module": "default",
+          "package": "galileo_falling_bodies",
+          "version": "4.0.0"
+        }
+      ]
+    },
+    {
+      "kind": null,
+      "knowledge_type": "claim",
+      "local_canonical_id": "lcn_fe4498bbf1e99f03",
+      "member_raw_node_ids": [
+        "raw_aaf5d9b1f89367ba"
+      ],
+      "metadata": null,
+      "package": "galileo_falling_bodies",
+      "parameters": [],
+      "representative_content": "日常观察到的速度差异更应被解释为介质阻力造成的表象，   而不是重量本身决定自由落体速度的证据。",
+      "source_refs": [
+        {
+          "knowledge_name": "galileo.air_resistance_is_confound",
+          "module": "default",
+          "package": "galileo_falling_bodies",
+          "version": "4.0.0"
+        }
+      ]
+    },
+    {
+      "kind": null,
+      "knowledge_type": "claim",
+      "local_canonical_id": "lcn_61b525847b0bfd1e",
+      "member_raw_node_ids": [
+        "raw_8763b7853266c3d2"
+      ],
+      "metadata": null,
+      "package": "galileo_falling_bodies",
+      "parameters": [],
+      "representative_content": "在真空中，不同重量的物体应以相同速率下落。",
+      "source_refs": [
+        {
+          "knowledge_name": "galileo.vacuum_prediction",
+          "module": "default",
+          "package": "galileo_falling_bodies",
+          "version": "4.0.0"
+        }
+      ]
+    },
+    {
+      "kind": null,
+      "knowledge_type": "question",
+      "local_canonical_id": "lcn_030e61a51f00e6f7",
+      "member_raw_node_ids": [
+        "raw_5c3daa5267cb7828"
+      ],
+      "metadata": null,
+      "package": "galileo_falling_bodies",
+      "parameters": [],
+      "representative_content": "能否在足够接近真空的条件下直接比较重球与轻球的下落时间？   如果日常差异确实来自空气阻力，   那么真正决定性的实验应当在几乎无介质的环境中完成。",
+      "source_refs": [
+        {
+          "knowledge_name": "follow_up.follow_up_question",
+          "module": "default",
+          "package": "galileo_falling_bodies",
+          "version": "4.0.0"
+        }
+      ]
+    }
+  ],
+  "package": "galileo_falling_bodies",
+  "schema_version": "1.0",
+  "version": "4.0.0"
+}

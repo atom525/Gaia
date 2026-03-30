@@ -1,0 +1,25 @@
+{
+  "beliefs": {
+    "lcn_01652b4c911e9caf": 0.253959,
+    "lcn_18de47e80c37ae34": 0.626726,
+    "lcn_19a11ee542a2d080": 0.402881,
+    "lcn_5cea6273898b88bf": 0.432943,
+    "lcn_68af2bc47621c7c0": 0.440469,
+    "lcn_9d4fb4db6a77b910": 0.432853,
+    "lcn_a7281f55048a1e0c": 0.432943,
+    "lcn_b02ccc343327ee33": 0.567013
+  },
+  "bp_run_id": "4d1a20e4-5319-4d1b-ac2b-f92537ae0c49",
+  "compilation_summary": {
+    "elapsed_ms": 3.16,
+    "is_exact": true,
+    "method_used": "jt",
+    "treewidth": 4
+  },
+  "converged": true,
+  "created_at": "2026-03-30T02:41:56.019772Z",
+  "iterations": 2,
+  "max_residual": 0.0,
+  "prior_cutoff": "2026-03-30T02:41:56.019772Z",
+  "resolution_policy": "latest"
+}

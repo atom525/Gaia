@@ -1,0 +1,81 @@
+{
+  "canonicalization_log": [
+    {
+      "local_canonical_id": "lcn_280baa651266f0ef",
+      "members": [
+        "raw_2eddcf5acdbea579"
+      ],
+      "reason": "singleton: no local semantic merge applied"
+    },
+    {
+      "local_canonical_id": "lcn_333610d7459570bb",
+      "members": [
+        "raw_4dd77f6017877777"
+      ],
+      "reason": "singleton: no local semantic merge applied"
+    },
+    {
+      "local_canonical_id": "lcn_6f10cf5b90c4e2ae",
+      "members": [
+        "raw_ed35dd00bdd67e64"
+      ],
+      "reason": "singleton: no local semantic merge applied"
+    },
+    {
+      "local_canonical_id": "lcn_01652b4c911e9caf",
+      "members": [
+        "raw_d4a24c494a5dbd55"
+      ],
+      "reason": "singleton: no local semantic merge applied"
+    },
+    {
+      "local_canonical_id": "lcn_68af2bc47621c7c0",
+      "members": [
+        "raw_b80d86fc64fad008"
+      ],
+      "reason": "singleton: no local semantic merge applied"
+    },
+    {
+      "local_canonical_id": "lcn_18de47e80c37ae34",
+      "members": [
+        "raw_039a9110802c7a9d"
+      ],
+      "reason": "singleton: no local semantic merge applied"
+    },
+    {
+      "local_canonical_id": "lcn_19a11ee542a2d080",
+      "members": [
+        "raw_0c0360aacfe67c83"
+      ],
+      "reason": "singleton: no local semantic merge applied"
+    },
+    {
+      "local_canonical_id": "lcn_a7281f55048a1e0c",
+      "members": [
+        "raw_4a3439148c792bad"
+      ],
+      "reason": "singleton: no local semantic merge applied"
+    },
+    {
+      "local_canonical_id": "lcn_5cea6273898b88bf",
+      "members": [
+        "raw_6618ab503e110c91"
+      ],
+      "reason": "singleton: no local semantic merge applied"
+    },
+    {
+      "local_canonical_id": "lcn_b02ccc343327ee33",
+      "members": [
+        "raw_c4c13352158f76d9"
+      ],
+      "reason": "singleton: no local semantic merge applied"
+    },
+    {
+      "local_canonical_id": "lcn_9d4fb4db6a77b910",
+      "members": [
+        "ext:cmb-analysis/cmb_power_spectrum"
+      ],
+      "reason": "singleton: no local semantic merge applied"
+    }
+  ]
+}

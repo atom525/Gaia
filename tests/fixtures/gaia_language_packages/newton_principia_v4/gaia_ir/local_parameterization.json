@@ -1,0 +1,142 @@
+{
+  "ir_hash": "sha256:6dfe9e3be6be86c7f4239778b42a9270a33afedebfa92041cf849bad6b110df5",
+  "priors": [
+    {
+      "created_at": "2026-03-30T02:41:56.112374Z",
+      "gcn_id": "lcn_0b7fe135166f9e03",
+      "source_id": "pipeline:newton_principia",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.112404Z",
+      "gcn_id": "lcn_334f23cefdb521e7",
+      "source_id": "pipeline:newton_principia",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.112408Z",
+      "gcn_id": "lcn_4d41ba1e4a665d14",
+      "source_id": "pipeline:newton_principia",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.112411Z",
+      "gcn_id": "lcn_6e9aaecba31ea749",
+      "source_id": "pipeline:newton_principia",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.112415Z",
+      "gcn_id": "lcn_a2fce7dc9cd002eb",
+      "source_id": "pipeline:newton_principia",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.112418Z",
+      "gcn_id": "lcn_a5bb635a1c0b7755",
+      "source_id": "pipeline:newton_principia",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.112421Z",
+      "gcn_id": "lcn_c40e7630fea9c153",
+      "source_id": "pipeline:newton_principia",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.112424Z",
+      "gcn_id": "lcn_d9a708604eb51daf",
+      "source_id": "pipeline:newton_principia",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.112428Z",
+      "gcn_id": "lcn_daa475c7d728f04c",
+      "source_id": "pipeline:newton_principia",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.112431Z",
+      "gcn_id": "lcn_e39b95a24714f3fd",
+      "source_id": "pipeline:newton_principia",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.112435Z",
+      "gcn_id": "lcn_e96529ee10eb525d",
+      "source_id": "pipeline:newton_principia",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.112438Z",
+      "gcn_id": "lcn_e9e90101869e19f2",
+      "source_id": "pipeline:newton_principia",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-03-30T02:41:56.112441Z",
+      "gcn_id": "lcn_ec71f7779e35bfab",
+      "source_id": "pipeline:newton_principia",
+      "value": 0.5
+    }
+  ],
+  "scope": "local",
+  "strategy_params": [
+    {
+      "conditional_probabilities": [
+        0.999
+      ],
+      "created_at": "2026-03-30T02:41:56.112450Z",
+      "source_id": "pipeline:newton_principia",
+      "strategy_id": "lcs_1234b74e3e937cd7"
+    },
+    {
+      "conditional_probabilities": [
+        0.999
+      ],
+      "created_at": "2026-03-30T02:41:56.112456Z",
+      "source_id": "pipeline:newton_principia",
+      "strategy_id": "lcs_3f015e1eb3f49b65"
+    },
+    {
+      "conditional_probabilities": [
+        0.999
+      ],
+      "created_at": "2026-03-30T02:41:56.112460Z",
+      "source_id": "pipeline:newton_principia",
+      "strategy_id": "lcs_5199e6abf57968af"
+    },
+    {
+      "conditional_probabilities": [
+        0.999
+      ],
+      "created_at": "2026-03-30T02:41:56.112464Z",
+      "source_id": "pipeline:newton_principia",
+      "strategy_id": "lcs_67caae253e50085c"
+    },
+    {
+      "conditional_probabilities": [
+        0.999
+      ],
+      "created_at": "2026-03-30T02:41:56.112467Z",
+      "source_id": "pipeline:newton_principia",
+      "strategy_id": "lcs_ae1e586a0f398dcd"
+    },
+    {
+      "conditional_probabilities": [
+        0.999
+      ],
+      "created_at": "2026-03-30T02:41:56.112471Z",
+      "source_id": "pipeline:newton_principia",
+      "strategy_id": "lcs_d1408f99792b6795"
+    },
+    {
+      "conditional_probabilities": [
+        0.999
+      ],
+      "created_at": "2026-03-30T02:41:56.112475Z",
+      "source_id": "pipeline:newton_principia",
+      "strategy_id": "lcs_f11c9c867554a0e2"
+    }
+  ]
+}

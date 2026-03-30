@@ -1,0 +1,426 @@
+{
+  "ir_hash": "sha256:6dfe9e3be6be86c7f4239778b42a9270a33afedebfa92041cf849bad6b110df5",
+  "knowledges": [
+    {
+      "content": "能否从力学基本定律与天文观测出发，   推导出自由落体加速度与物体质量无关？",
+      "id": "lcn_87e1a2f4010102a9",
+      "local_members": null,
+      "metadata": {
+        "source_refs": [
+          {
+            "knowledge_name": "motivation.main_question",
+            "module": "default",
+            "package": "newton_principia",
+            "version": "4.0.0"
+          }
+        ]
+      },
+      "package_id": "newton_principia",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "question"
+    },
+    {
+      "content": "牛顿第二定律：物体所受合外力等于其惯性质量与加速度的乘积。   F = m_i a",
+      "id": "lcn_ec71f7779e35bfab",
+      "local_members": null,
+      "metadata": {
+        "source_refs": [
+          {
+            "knowledge_name": "laws.second_law",
+            "module": "default",
+            "package": "newton_principia",
+            "version": "4.0.0"
+          }
+        ]
+      },
+      "package_id": "newton_principia",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    },
+    {
+      "content": "牛顿第三定律：两个物体之间的作用力与反作用力大小相等、方向相反。   F_A B = −F_B A",
+      "id": "lcn_0b7fe135166f9e03",
+      "local_members": null,
+      "metadata": {
+        "source_refs": [
+          {
+            "knowledge_name": "laws.third_law",
+            "module": "default",
+            "package": "newton_principia",
+            "version": "4.0.0"
+          }
+        ]
+      },
+      "package_id": "newton_principia",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    },
+    {
+      "content": "开普勒第三定律（1619，基于第谷·布拉赫的行星观测数据）：   行星绕太阳运行的轨道周期   T   的平方与轨道半径   r   的立方成正比。   T^2 = k r^3   其中   k   是对同一中心天体的所有行星相同的常数。",
+      "id": "lcn_e39b95a24714f3fd",
+      "local_members": null,
+      "metadata": {
+        "source_refs": [
+          {
+            "knowledge_name": "observations.kepler_third_law",
+            "module": "default",
+            "package": "newton_principia",
+            "version": "4.0.0"
+          }
+        ]
+      },
+      "package_id": "newton_principia",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    },
+    {
+      "content": "牛顿用等长摆锤悬挂金、银、铅、玻璃、沙、盐、木、水、小麦等不同材料，   测得所有材料的摆动周期在   10^−3   精度内完全一致。",
+      "id": "lcn_a5bb635a1c0b7755",
+      "local_members": null,
+      "metadata": {
+        "source_refs": [
+          {
+            "knowledge_name": "observations.pendulum_experiment",
+            "module": "default",
+            "package": "newton_principia",
+            "version": "4.0.0"
+          }
+        ]
+      },
+      "package_id": "newton_principia",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    },
+    {
+      "content": "在地球表面附近，物体到地心的距离   r   近似等于地球半径   R ，   因此引力加速度可视为常数：   g = (G M)/R^2 ≈ 9.8 m ⋅ s^−2",
+      "id": "lcn_8fa378e380a8d015",
+      "local_members": null,
+      "metadata": {
+        "source_refs": [
+          {
+            "knowledge_name": "observations.near_earth_surface",
+            "module": "default",
+            "package": "newton_principia",
+            "version": "4.0.0"
+          }
+        ]
+      },
+      "package_id": "newton_principia",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "setting"
+    },
+    {
+      "content": "对于绕中心天体做圆周运动的物体，   所受引力与到天体中心距离   r   的平方成反比。   F ∝ 1/r^2",
+      "id": "lcn_e96529ee10eb525d",
+      "local_members": null,
+      "metadata": {
+        "source_refs": [
+          {
+            "knowledge_name": "derivation.inverse_square_force",
+            "module": "default",
+            "package": "newton_principia",
+            "version": "4.0.0"
+          }
+        ]
+      },
+      "package_id": "newton_principia",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    },
+    {
+      "content": "万有引力定律：质量为   M   和   m_g   的两个物体之间的引力与两者质量之积成正比，   与距离的平方成反比。   F = (G M m_g)/r^2",
+      "id": "lcn_c40e7630fea9c153",
+      "local_members": null,
+      "metadata": {
+        "source_refs": [
+          {
+            "knowledge_name": "derivation.law_of_gravity",
+            "module": "default",
+            "package": "newton_principia",
+            "version": "4.0.0"
+          }
+        ]
+      },
+      "package_id": "newton_principia",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    },
+    {
+      "content": "物体的惯性质量   m_i （决定对力的加速响应）   与引力质量   m_g （决定所受引力大小）相等。   m_i = m_g",
+      "id": "lcn_334f23cefdb521e7",
+      "local_members": null,
+      "metadata": {
+        "source_refs": [
+          {
+            "knowledge_name": "derivation.mass_equivalence",
+            "module": "default",
+            "package": "newton_principia",
+            "version": "4.0.0"
+          }
+        ]
+      },
+      "package_id": "newton_principia",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    },
+    {
+      "content": "在地球表面附近，任何物体的自由落体加速度都等于   g ≈ 9.8   m/s²，与物体质量无关。",
+      "id": "lcn_a2fce7dc9cd002eb",
+      "local_members": null,
+      "metadata": {
+        "source_refs": [
+          {
+            "knowledge_name": "derivation.freefall_acceleration_equals_g",
+            "module": "default",
+            "package": "newton_principia",
+            "version": "4.0.0"
+          }
+        ]
+      },
+      "package_id": "newton_principia",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    },
+    {
+      "content": "牛顿从力学定律出发的数学推导，与伽利略从思想实验出发的逻辑论证，   独立得出同一结论：自由落体加速度与物体质量无关。",
+      "id": "lcn_d9a708604eb51daf",
+      "local_members": null,
+      "metadata": {
+        "source_refs": [
+          {
+            "knowledge_name": "derivation.galileo_newton_convergence",
+            "module": "default",
+            "package": "newton_principia",
+            "version": "4.0.0"
+          }
+        ]
+      },
+      "package_id": "newton_principia",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    },
+    {
+      "content": "1971 年 Apollo 15 任务中，宇航员 David Scott 在月球表面（真空环境）   同时释放一把锤子（ 1.32   kg）和一根羽毛（ 0.03   g），   质量比约   44000 : 1 ，两者同时落地。",
+      "id": "lcn_6e9aaecba31ea749",
+      "local_members": null,
+      "metadata": {
+        "source_refs": [
+          {
+            "knowledge_name": "derivation.apollo15_feather_drop",
+            "module": "default",
+            "package": "newton_principia",
+            "version": "4.0.0"
+          }
+        ]
+      },
+      "package_id": "newton_principia",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    },
+    {
+      "content": "在月球真空条件下，质量相差约四万倍的物体仍然同时落地，   直接验证自由落体加速度与质量无关。",
+      "id": "lcn_daa475c7d728f04c",
+      "local_members": null,
+      "metadata": {
+        "source_refs": [
+          {
+            "knowledge_name": "derivation.apollo15_confirms_equal_fall",
+            "module": "default",
+            "package": "newton_principia",
+            "version": "4.0.0"
+          }
+        ]
+      },
+      "package_id": "newton_principia",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    },
+    {
+      "content": "伽利略 1638 年的思想实验预测与 Apollo 15 1971 年的月面实验结果一致：   在真空中一切物体以相同速率下落。",
+      "id": "lcn_4d41ba1e4a665d14",
+      "local_members": null,
+      "metadata": {
+        "source_refs": [
+          {
+            "knowledge_name": "derivation.apollo_galileo_convergence",
+            "module": "default",
+            "package": "newton_principia",
+            "version": "4.0.0"
+          }
+        ]
+      },
+      "package_id": "newton_principia",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    },
+    {
+      "content": "上述推导依赖   m_i = m_g   这一经验事实。   惯性质量与引力质量的精确相等是否有更深层的理论解释？",
+      "id": "lcn_d5d40e7481e3035b",
+      "local_members": null,
+      "metadata": {
+        "source_refs": [
+          {
+            "knowledge_name": "follow_up.follow_up_question",
+            "module": "default",
+            "package": "newton_principia",
+            "version": "4.0.0"
+          }
+        ]
+      },
+      "package_id": "newton_principia",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "question"
+    },
+    {
+      "content": "在真空中，不同重量的物体应以相同速率下落。",
+      "id": "lcn_e9e90101869e19f2",
+      "local_members": null,
+      "metadata": {
+        "ext_node": "vacuum_prediction",
+        "ext_package": "galileo_falling_bodies",
+        "ext_version": "4.0.0",
+        "source_refs": [
+          {
+            "knowledge_name": "vacuum_prediction",
+            "module": "external",
+            "package": "galileo_falling_bodies",
+            "version": "4.0.0"
+          }
+        ]
+      },
+      "package_id": "newton_principia",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    }
+  ],
+  "operators": [],
+  "scope": "local",
+  "strategies": [
+    {
+      "background": null,
+      "conclusion": "lcn_e96529ee10eb525d",
+      "metadata": null,
+      "premises": [
+        "lcn_e39b95a24714f3fd",
+        "lcn_ec71f7779e35bfab"
+      ],
+      "scope": "local",
+      "steps": null,
+      "strategy_id": "lcs_67caae253e50085c",
+      "type": "noisy_and"
+    },
+    {
+      "background": null,
+      "conclusion": "lcn_c40e7630fea9c153",
+      "metadata": null,
+      "premises": [
+        "lcn_e96529ee10eb525d",
+        "lcn_0b7fe135166f9e03"
+      ],
+      "scope": "local",
+      "steps": null,
+      "strategy_id": "lcs_3f015e1eb3f49b65",
+      "type": "noisy_and"
+    },
+    {
+      "background": null,
+      "conclusion": "lcn_334f23cefdb521e7",
+      "metadata": null,
+      "premises": [
+        "lcn_a5bb635a1c0b7755",
+        "lcn_ec71f7779e35bfab",
+        "lcn_c40e7630fea9c153"
+      ],
+      "scope": "local",
+      "steps": null,
+      "strategy_id": "lcs_d1408f99792b6795",
+      "type": "noisy_and"
+    },
+    {
+      "background": [
+        "lcn_8fa378e380a8d015"
+      ],
+      "conclusion": "lcn_a2fce7dc9cd002eb",
+      "metadata": null,
+      "premises": [
+        "lcn_ec71f7779e35bfab",
+        "lcn_c40e7630fea9c153",
+        "lcn_334f23cefdb521e7"
+      ],
+      "scope": "local",
+      "steps": null,
+      "strategy_id": "lcs_5199e6abf57968af",
+      "type": "noisy_and"
+    },
+    {
+      "background": null,
+      "conclusion": "lcn_d9a708604eb51daf",
+      "metadata": null,
+      "premises": [
+        "lcn_a2fce7dc9cd002eb",
+        "lcn_e9e90101869e19f2"
+      ],
+      "scope": "local",
+      "steps": null,
+      "strategy_id": "lcs_1234b74e3e937cd7",
+      "type": "noisy_and"
+    },
+    {
+      "background": null,
+      "conclusion": "lcn_daa475c7d728f04c",
+      "metadata": null,
+      "premises": [
+        "lcn_6e9aaecba31ea749"
+      ],
+      "scope": "local",
+      "steps": null,
+      "strategy_id": "lcs_f11c9c867554a0e2",
+      "type": "noisy_and"
+    },
+    {
+      "background": null,
+      "conclusion": "lcn_4d41ba1e4a665d14",
+      "metadata": null,
+      "premises": [
+        "lcn_daa475c7d728f04c",
+        "lcn_e9e90101869e19f2"
+      ],
+      "scope": "local",
+      "steps": null,
+      "strategy_id": "lcs_ae1e586a0f398dcd",
+      "type": "noisy_and"
+    }
+  ]
+}
