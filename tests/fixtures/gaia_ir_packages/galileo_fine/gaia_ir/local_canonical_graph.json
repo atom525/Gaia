@@ -1,0 +1,344 @@
+{
+  "scope": "local",
+  "ir_hash": "sha256:0d9d4825d9f7b5ca0dcfda82571421a6a10a8d81e9ee2b7ea8ffedc1acd6d71a",
+  "knowledges": [
+    {
+      "id": "lcn_95cf393406c2a5bb",
+      "type": "claim",
+      "content": "物体下落速度与其重量成正比：重物比轻物下落更快",
+      "metadata": {
+        "schema": "literature",
+        "source": "Aristotle, De Caelo I.6"
+      }
+    },
+    {
+      "id": "lcn_d2825ea814f3dc68",
+      "type": "claim",
+      "content": "在真空（无阻力）环境中，不同重量的物体以相同速率下落",
+      "metadata": {
+        "schema": "derivation",
+        "source": "Galileo, Discorsi 1638"
+      }
+    },
+    {
+      "id": "lcn_34d1ee01b6b33744",
+      "type": "claim",
+      "content": "不同重量物体的下落速度差异由介质阻力决定——阻力越大差异越大，阻力越小差异越小",
+      "metadata": {
+        "schema": "derivation",
+        "source": "Galileo, Discorsi (abduction)"
+      }
+    },
+    {
+      "id": "lcn_db93e500a0850e67",
+      "type": "claim",
+      "content": "日常生活中，石头比羽毛下落更快，铁球比木球更快",
+      "metadata": {
+        "schema": "observation"
+      }
+    },
+    {
+      "id": "lcn_302d9c852755aa5b",
+      "type": "claim",
+      "content": "在不同介质中比较轻重物体的下落，介质越稠密速度差异越明显；越稀薄差异越不明显",
+      "metadata": {
+        "source": "Galileo, Discorsi"
+      }
+    },
+    {
+      "id": "lcn_90c9007df6469808",
+      "type": "claim",
+      "content": "在空气中，金球、铅球、铜球等重材料球从100腕尺落下，金球领先铜球不超过四指",
+      "metadata": {
+        "source": "Galileo, Discorsi"
+      }
+    },
+    {
+      "id": "lcn_9429ca17d9571031",
+      "type": "claim",
+      "content": "在斜面倾角θ₁下，不同重量的光滑球滚下，距离之比等于时间之比的平方，与球重量无关"
+    },
+    {
+      "id": "lcn_55760b28535eea32",
+      "type": "claim",
+      "content": "在斜面倾角θ₂下，不同重量的光滑球滚下，距离之比等于时间之比的平方，与球重量无关"
+    },
+    {
+      "id": "lcn_5f4c0ac3b0a195b5",
+      "type": "setting",
+      "content": "真空是完全没有阻力的介质（介质密度为零）"
+    },
+    {
+      "id": "lcn_8101eea5d84bcf8a",
+      "type": "setting",
+      "content": "斜面沟槽经抛光处理，衬以羊皮纸，使用坚硬光滑的青铜球——摩擦和空气阻力可忽略"
+    },
+    {
+      "id": "lcn_d02568002aa09f98",
+      "type": "claim",
+      "content": "假设重物下落更快，将重球H与轻球L绑在一起，L拖拽H，复合体HL速度应慢于H单独下落"
+    },
+    {
+      "id": "lcn_526be6f1f7bc49b6",
+      "type": "claim",
+      "content": "假设重物下落更快，复合体HL总重量大于H，因此HL速度应快于H单独下落"
+    },
+    {
+      "id": "lcn_caf64b4b411f6c5f",
+      "type": "claim",
+      "content": "在真空中也应重者更快（将A的普遍规律应用于真空的推论）"
+    },
+    {
+      "id": "lcn_09dd3f8546de5051",
+      "type": "claim",
+      "content": "若A成立，则日常中重物应比轻物下落更快（A的可观测预测）"
+    },
+    {
+      "id": "lcn_159c6e9e2183cc2a",
+      "type": "claim",
+      "content": "若G成立，则稠密介质中轻重物体速度差异应更大（G的可观测预测）"
+    },
+    {
+      "id": "lcn_25547afe4640f9ec",
+      "type": "claim",
+      "content": "若G成立，则空气中轻重物体速度差异应极小（G的可观测预测）"
+    },
+    {
+      "id": "lcn_ec854454a7be9bd1",
+      "type": "claim",
+      "content": "若V+S_plane成立，则倾角θ₁下s∝t²应与球重量无关（V的可观测预测）"
+    },
+    {
+      "id": "lcn_01de2e7302c5ee72",
+      "type": "claim",
+      "content": "若V+S_plane成立，则倾角θ₂下s∝t²应与球重量无关（V的可观测预测）"
+    },
+    {
+      "id": "lcn_ff7b6028706dd573",
+      "type": "claim",
+      "content": "G与S_vac的合取成立（阻力决定差异且真空阻力为零）"
+    },
+    {
+      "id": "lcn_cadb9a08ac205d10",
+      "type": "claim",
+      "content": "V与S_plane的合取成立（真空等速且低摩擦斜面条件满足）——用于推导θ₁预测"
+    },
+    {
+      "id": "lcn_3dd360c97561f979",
+      "type": "claim",
+      "content": "V与S_plane的合取成立（真空等速且低摩擦斜面条件满足）——用于推导θ₂预测"
+    },
+    {
+      "id": "lcn_648ec760e2421907",
+      "type": "claim",
+      "content": "A与S_vac的合取成立（A为普遍规律且真空条件满足）"
+    }
+  ],
+  "strategies": [],
+  "operators": [
+    {
+      "operator_id": "lco_74b7f050a3eb2af3",
+      "scope": "local",
+      "operator": "implication",
+      "variables": [
+        "lcn_95cf393406c2a5bb",
+        "lcn_09dd3f8546de5051"
+      ],
+      "conclusion": "lcn_09dd3f8546de5051"
+    },
+    {
+      "operator_id": "lco_6d04c3cd7836c001",
+      "scope": "local",
+      "operator": "equivalence",
+      "variables": [
+        "lcn_09dd3f8546de5051",
+        "lcn_db93e500a0850e67"
+      ],
+      "conclusion": null
+    },
+    {
+      "operator_id": "lco_7b1647ac86fa382e",
+      "scope": "local",
+      "operator": "implication",
+      "variables": [
+        "lcn_95cf393406c2a5bb",
+        "lcn_d02568002aa09f98"
+      ],
+      "conclusion": "lcn_d02568002aa09f98"
+    },
+    {
+      "operator_id": "lco_480300b69620e305",
+      "scope": "local",
+      "operator": "implication",
+      "variables": [
+        "lcn_95cf393406c2a5bb",
+        "lcn_526be6f1f7bc49b6"
+      ],
+      "conclusion": "lcn_526be6f1f7bc49b6"
+    },
+    {
+      "operator_id": "lco_5d12c792c0f69530",
+      "scope": "local",
+      "operator": "contradiction",
+      "variables": [
+        "lcn_d02568002aa09f98",
+        "lcn_526be6f1f7bc49b6"
+      ],
+      "conclusion": null
+    },
+    {
+      "operator_id": "lco_f5866db7a3863e87",
+      "scope": "local",
+      "operator": "conjunction",
+      "variables": [
+        "lcn_95cf393406c2a5bb",
+        "lcn_5f4c0ac3b0a195b5",
+        "lcn_648ec760e2421907"
+      ],
+      "conclusion": "lcn_648ec760e2421907"
+    },
+    {
+      "operator_id": "lco_b4dae05dce2154d8",
+      "scope": "local",
+      "operator": "implication",
+      "variables": [
+        "lcn_648ec760e2421907",
+        "lcn_caf64b4b411f6c5f"
+      ],
+      "conclusion": "lcn_caf64b4b411f6c5f"
+    },
+    {
+      "operator_id": "lco_f6f5e803e19e1468",
+      "scope": "local",
+      "operator": "contradiction",
+      "variables": [
+        "lcn_caf64b4b411f6c5f",
+        "lcn_d2825ea814f3dc68"
+      ],
+      "conclusion": null
+    },
+    {
+      "operator_id": "lco_f191c0870141cf25",
+      "scope": "local",
+      "operator": "implication",
+      "variables": [
+        "lcn_34d1ee01b6b33744",
+        "lcn_159c6e9e2183cc2a"
+      ],
+      "conclusion": "lcn_159c6e9e2183cc2a"
+    },
+    {
+      "operator_id": "lco_a838b7dcff48d19e",
+      "scope": "local",
+      "operator": "equivalence",
+      "variables": [
+        "lcn_159c6e9e2183cc2a",
+        "lcn_302d9c852755aa5b"
+      ],
+      "conclusion": null
+    },
+    {
+      "operator_id": "lco_24e70e40fab09570",
+      "scope": "local",
+      "operator": "implication",
+      "variables": [
+        "lcn_34d1ee01b6b33744",
+        "lcn_25547afe4640f9ec"
+      ],
+      "conclusion": "lcn_25547afe4640f9ec"
+    },
+    {
+      "operator_id": "lco_17c68f668047eca4",
+      "scope": "local",
+      "operator": "equivalence",
+      "variables": [
+        "lcn_25547afe4640f9ec",
+        "lcn_90c9007df6469808"
+      ],
+      "conclusion": null
+    },
+    {
+      "operator_id": "lco_d47e0dc93a86d2e9",
+      "scope": "local",
+      "operator": "conjunction",
+      "variables": [
+        "lcn_34d1ee01b6b33744",
+        "lcn_5f4c0ac3b0a195b5",
+        "lcn_ff7b6028706dd573"
+      ],
+      "conclusion": "lcn_ff7b6028706dd573"
+    },
+    {
+      "operator_id": "lco_eed1c0c58c1f2bb9",
+      "scope": "local",
+      "operator": "implication",
+      "variables": [
+        "lcn_ff7b6028706dd573",
+        "lcn_d2825ea814f3dc68"
+      ],
+      "conclusion": "lcn_d2825ea814f3dc68"
+    },
+    {
+      "operator_id": "lco_452803268346c0f0",
+      "scope": "local",
+      "operator": "conjunction",
+      "variables": [
+        "lcn_d2825ea814f3dc68",
+        "lcn_8101eea5d84bcf8a",
+        "lcn_cadb9a08ac205d10"
+      ],
+      "conclusion": "lcn_cadb9a08ac205d10"
+    },
+    {
+      "operator_id": "lco_5da39523afee8ae8",
+      "scope": "local",
+      "operator": "implication",
+      "variables": [
+        "lcn_cadb9a08ac205d10",
+        "lcn_ec854454a7be9bd1"
+      ],
+      "conclusion": "lcn_ec854454a7be9bd1"
+    },
+    {
+      "operator_id": "lco_593cddb6339d49fd",
+      "scope": "local",
+      "operator": "equivalence",
+      "variables": [
+        "lcn_ec854454a7be9bd1",
+        "lcn_9429ca17d9571031"
+      ],
+      "conclusion": null
+    },
+    {
+      "operator_id": "lco_522d32ae213b974e",
+      "scope": "local",
+      "operator": "conjunction",
+      "variables": [
+        "lcn_d2825ea814f3dc68",
+        "lcn_8101eea5d84bcf8a",
+        "lcn_3dd360c97561f979"
+      ],
+      "conclusion": "lcn_3dd360c97561f979"
+    },
+    {
+      "operator_id": "lco_c267a06b72908e8a",
+      "scope": "local",
+      "operator": "implication",
+      "variables": [
+        "lcn_3dd360c97561f979",
+        "lcn_01de2e7302c5ee72"
+      ],
+      "conclusion": "lcn_01de2e7302c5ee72"
+    },
+    {
+      "operator_id": "lco_300ece61e6c3f2c5",
+      "scope": "local",
+      "operator": "equivalence",
+      "variables": [
+        "lcn_01de2e7302c5ee72",
+        "lcn_55760b28535eea32"
+      ],
+      "conclusion": null
+    }
+  ]
+}

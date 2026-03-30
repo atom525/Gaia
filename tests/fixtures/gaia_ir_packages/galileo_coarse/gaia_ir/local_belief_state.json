@@ -1,0 +1,44 @@
+{
+  "bp_run_id": "run_6924d8dd6e2d",
+  "created_at": "2026-03-30T02:18:02Z",
+  "resolution_policy": "latest",
+  "prior_cutoff": "2026-03-30T02:18:02Z",
+  "beliefs": {
+    "lcn_450753c813ebfbe7": 0.0,
+    "lcn_e01e994cc1cf861d": 0.0,
+    "lcn_68b870b952933631": 0.0989905047,
+    "lcn_5cc3f66ff4e15cb2": 0.9086775014,
+    "lcn_0a89e87c80d2db15": 0.9099616554,
+    "lcn_9e4367c378aacabe": 0.8181818182,
+    "lcn_ac7289288b2ed47b": 0.9099616554,
+    "lcn_8c78cf252fd1a579": 0.3333333334,
+    "lcn_75e6a414b6ae76c6": 0.3333333334,
+    "lcn_03403746240a6d76": 0.8020189907,
+    "lcn_a0f6e172f3510249": 0.8281978347,
+    "lcn_a9c185a2a58e8589": 0.9078555988
+  },
+  "converged": true,
+  "iterations": 2,
+  "max_residual": 0.0,
+  "_node_labels": {
+    "lcn_03403746240a6d76": "V",
+    "lcn_0a89e87c80d2db15": "O_air",
+    "lcn_450753c813ebfbe7": "A",
+    "lcn_5cc3f66ff4e15cb2": "E_theta",
+    "lcn_68b870b952933631": "A_vac",
+    "lcn_75e6a414b6ae76c6": "T2",
+    "lcn_8c78cf252fd1a579": "T1",
+    "lcn_9e4367c378aacabe": "O_daily",
+    "lcn_a0f6e172f3510249": "W2_M",
+    "lcn_a9c185a2a58e8589": "W3_M",
+    "lcn_ac7289288b2ed47b": "O_media",
+    "lcn_e01e994cc1cf861d": "AV_M"
+  },
+  "_inference_metadata": {
+    "ir_hash": "sha256:9664e925f98966d4bf43c2bd5b218936e253a1d14f3ca4c425444942f4c22792",
+    "method_used": "jt",
+    "treewidth": 3,
+    "is_exact": true,
+    "elapsed_ms": 3.24
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "scope": "local",
+  "ir_hash": "sha256:9664e925f98966d4bf43c2bd5b218936e253a1d14f3ca4c425444942f4c22792",
+  "knowledges": [
+    {
+      "id": "lcn_450753c813ebfbe7",
+      "type": "claim",
+      "content": "物体下落速度与其重量成正比：重物比轻物下落更快",
+      "metadata": {
+        "schema": "literature",
+        "source": "Aristotle, De Caelo I.6"
+      }
+    },
+    {
+      "id": "lcn_03403746240a6d76",
+      "type": "claim",
+      "content": "在真空（无阻力）环境中，不同重量的物体以相同速率下落",
+      "metadata": {
+        "schema": "derivation",
+        "source": "Galileo, Discorsi 1638"
+      }
+    },
+    {
+      "id": "lcn_9e4367c378aacabe",
+      "type": "claim",
+      "content": "日常生活中，石头比羽毛下落更快，铁球比木球更快",
+      "metadata": {
+        "schema": "observation"
+      }
+    },
+    {
+      "id": "lcn_ac7289288b2ed47b",
+      "type": "claim",
+      "content": "在不同介质中比较轻重物体的下落，介质越稠密速度差异越明显；越稀薄差异越不明显",
+      "metadata": {
+        "source": "Galileo, Discorsi"
+      }
+    },
+    {
+      "id": "lcn_0a89e87c80d2db15",
+      "type": "claim",
+      "content": "在空气中，金球、铅球、铜球等重材料球从100腕尺落下，金球领先铜球不超过四指",
+      "metadata": {
+        "source": "Galileo, Discorsi"
+      }
+    },
+    {
+      "id": "lcn_5cc3f66ff4e15cb2",
+      "type": "claim",
+      "content": "在斜面倾角θ下，不同重量的光滑球沿抛光沟槽滚下，所经距离之比等于时间之比的平方，与球重量无关",
+      "metadata": {
+        "source": "Galileo, Discorsi Third Day"
+      }
+    },
+    {
+      "id": "lcn_df2ddc0b04c6ad60",
+      "type": "setting",
+      "content": "真空是完全没有阻力的介质（介质密度为零）"
+    },
+    {
+      "id": "lcn_dac1f1ef84a5ffe4",
+      "type": "setting",
+      "content": "斜面沟槽经抛光处理，衬以羊皮纸，使用坚硬光滑的青铜球——摩擦和空气阻力可忽略"
+    },
+    {
+      "id": "lcn_8c78cf252fd1a579",
+      "type": "claim",
+      "content": "假设重物下落更快，将重球H与轻球L绑在一起，L拖拽H，复合体HL速度应慢于H单独下落"
+    },
+    {
+      "id": "lcn_75e6a414b6ae76c6",
+      "type": "claim",
+      "content": "假设重物下落更快，复合体HL总重量大于H，因此HL速度应快于H单独下落"
+    },
+    {
+      "id": "lcn_68b870b952933631",
+      "type": "claim",
+      "content": "在真空中也应重者更快（将A的普遍规律应用于真空的推论）"
+    },
+    {
+      "id": "lcn_a0f6e172f3510249",
+      "type": "claim",
+      "content": "O_media、O_air与S_vac的合取成立（介质观测与真空条件同时满足）"
+    },
+    {
+      "id": "lcn_a9c185a2a58e8589",
+      "type": "claim",
+      "content": "E_theta与S_plane的合取成立（斜面实验结果与低摩擦条件同时满足）"
+    },
+    {
+      "id": "lcn_e01e994cc1cf861d",
+      "type": "claim",
+      "content": "A与S_vac的合取成立（A为普遍规律且真空条件满足）"
+    }
+  ],
+  "strategies": [
+    {
+      "strategy_id": "lcs_d2f82d2b4c453bfd",
+      "scope": "local",
+      "type": "noisy_and",
+      "premises": [
+        "lcn_9e4367c378aacabe"
+      ],
+      "conclusion": "lcn_450753c813ebfbe7"
+    },
+    {
+      "strategy_id": "lcs_49d0536b144f0914",
+      "scope": "local",
+      "type": "noisy_and",
+      "premises": [
+        "lcn_a0f6e172f3510249"
+      ],
+      "conclusion": "lcn_03403746240a6d76"
+    },
+    {
+      "strategy_id": "lcs_c1d65df78facee89",
+      "scope": "local",
+      "type": "noisy_and",
+      "premises": [
+        "lcn_a9c185a2a58e8589"
+      ],
+      "conclusion": "lcn_03403746240a6d76"
+    }
+  ],
+  "operators": [
+    {
+      "operator_id": "lco_8205846bf180a82c",
+      "scope": "local",
+      "operator": "implication",
+      "variables": [
+        "lcn_450753c813ebfbe7",
+        "lcn_8c78cf252fd1a579"
+      ],
+      "conclusion": "lcn_8c78cf252fd1a579"
+    },
+    {
+      "operator_id": "lco_5e3fa0f9a0f74d94",
+      "scope": "local",
+      "operator": "implication",
+      "variables": [
+        "lcn_450753c813ebfbe7",
+        "lcn_75e6a414b6ae76c6"
+      ],
+      "conclusion": "lcn_75e6a414b6ae76c6"
+    },
+    {
+      "operator_id": "lco_0826cf3d16c996e3",
+      "scope": "local",
+      "operator": "contradiction",
+      "variables": [
+        "lcn_8c78cf252fd1a579",
+        "lcn_75e6a414b6ae76c6"
+      ],
+      "conclusion": null
+    },
+    {
+      "operator_id": "lco_e3e61d5a24eee69e",
+      "scope": "local",
+      "operator": "conjunction",
+      "variables": [
+        "lcn_450753c813ebfbe7",
+        "lcn_df2ddc0b04c6ad60",
+        "lcn_e01e994cc1cf861d"
+      ],
+      "conclusion": "lcn_e01e994cc1cf861d"
+    },
+    {
+      "operator_id": "lco_5368eae61f82c218",
+      "scope": "local",
+      "operator": "implication",
+      "variables": [
+        "lcn_e01e994cc1cf861d",
+        "lcn_68b870b952933631"
+      ],
+      "conclusion": "lcn_68b870b952933631"
+    },
+    {
+      "operator_id": "lco_baff880ca6754c8a",
+      "scope": "local",
+      "operator": "contradiction",
+      "variables": [
+        "lcn_68b870b952933631",
+        "lcn_03403746240a6d76"
+      ],
+      "conclusion": null
+    },
+    {
+      "operator_id": "lco_7146f4a562260151",
+      "scope": "local",
+      "operator": "conjunction",
+      "variables": [
+        "lcn_ac7289288b2ed47b",
+        "lcn_0a89e87c80d2db15",
+        "lcn_df2ddc0b04c6ad60",
+        "lcn_a0f6e172f3510249"
+      ],
+      "conclusion": "lcn_a0f6e172f3510249"
+    },
+    {
+      "operator_id": "lco_5cf72d9dd92b96d5",
+      "scope": "local",
+      "operator": "conjunction",
+      "variables": [
+        "lcn_5cc3f66ff4e15cb2",
+        "lcn_dac1f1ef84a5ffe4",
+        "lcn_a9c185a2a58e8589"
+      ],
+      "conclusion": "lcn_a9c185a2a58e8589"
+    }
+  ]
+}
