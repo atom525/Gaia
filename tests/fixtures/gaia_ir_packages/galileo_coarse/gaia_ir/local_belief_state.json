@@ -1,0 +1,31 @@
+{
+  "beliefs": {
+    "lcn_A": 0.000293,
+    "lcn_AV_M": 0.127445,
+    "lcn_A_vac": 0.253237,
+    "lcn_E_theta": 0.794858,
+    "lcn_O_air": 0.822228,
+    "lcn_O_daily": 0.730006,
+    "lcn_O_media": 0.822228,
+    "lcn_R_Avac_V": 0.99776,
+    "lcn_R_T1_T2": 0.998595,
+    "lcn_T1": 0.333899,
+    "lcn_T2": 0.333899,
+    "lcn_V": 0.623823,
+    "lcn_W2_M": 0.815804,
+    "lcn_W3_M": 0.880925
+  },
+  "bp_run_id": "c38c216d-480b-44f4-a8ce-5a0382121b85",
+  "compilation_summary": {
+    "elapsed_ms": 2.68,
+    "is_exact": true,
+    "method_used": "jt",
+    "treewidth": 3
+  },
+  "converged": true,
+  "created_at": "2026-03-30T03:06:15.935995Z",
+  "iterations": 2,
+  "max_residual": 0.0,
+  "prior_cutoff": "2026-03-30T03:06:15.935995Z",
+  "resolution_policy": "latest"
+}

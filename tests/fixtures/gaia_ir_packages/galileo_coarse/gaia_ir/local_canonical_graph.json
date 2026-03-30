@@ -1,0 +1,314 @@
+{
+  "ir_hash": "sha256:9c9410e8195ae7c57c0dce1147b6fca81b76aa3c7540e81495ffc6987fecafeb",
+  "knowledges": [
+    {
+      "content": "物体下落速度与其重量成正比：重物比轻物下落更快",
+      "id": "lcn_A",
+      "local_members": null,
+      "metadata": null,
+      "package_id": "galileo_falling_bodies",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    },
+    {
+      "content": "在真空中，不同重量的物体以相同速率下落",
+      "id": "lcn_V",
+      "local_members": null,
+      "metadata": null,
+      "package_id": "galileo_falling_bodies",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    },
+    {
+      "content": "日常生活中，石头比羽毛下落更快，铁球比木球更快",
+      "id": "lcn_O_daily",
+      "local_members": null,
+      "metadata": null,
+      "package_id": "galileo_falling_bodies",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    },
+    {
+      "content": "不同介质中轻重物体下落差异越稀薄越不明显",
+      "id": "lcn_O_media",
+      "local_members": null,
+      "metadata": null,
+      "package_id": "galileo_falling_bodies",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    },
+    {
+      "content": "空气中金球铅球铜球从100腕尺落下，金球领先铜球不超过四指",
+      "id": "lcn_O_air",
+      "local_members": null,
+      "metadata": null,
+      "package_id": "galileo_falling_bodies",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    },
+    {
+      "content": "斜面实验：不同重量球滚下距离之比等于时间之比的平方，与重量无关",
+      "id": "lcn_E_theta",
+      "local_members": null,
+      "metadata": null,
+      "package_id": "galileo_falling_bodies",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    },
+    {
+      "content": "真空是完全没有阻力的介质",
+      "id": "lcn_S_vac",
+      "local_members": null,
+      "metadata": null,
+      "package_id": "galileo_falling_bodies",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "setting"
+    },
+    {
+      "content": "斜面经抛光处理，摩擦和空气阻力可忽略",
+      "id": "lcn_S_plane",
+      "local_members": null,
+      "metadata": null,
+      "package_id": "galileo_falling_bodies",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "setting"
+    },
+    {
+      "content": "假设重物下落更快，绑球复合体HL速度应慢于H单独下落",
+      "id": "lcn_T1",
+      "local_members": null,
+      "metadata": null,
+      "package_id": "galileo_falling_bodies",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    },
+    {
+      "content": "假设重物下落更快，复合体HL总重量大于H，速度应快于H",
+      "id": "lcn_T2",
+      "local_members": null,
+      "metadata": null,
+      "package_id": "galileo_falling_bodies",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    },
+    {
+      "content": "在真空中也应重者更快（A的推论应用于真空）",
+      "id": "lcn_A_vac",
+      "local_members": null,
+      "metadata": null,
+      "package_id": "galileo_falling_bodies",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    },
+    {
+      "content": "O_media、O_air与S_vac的合取成立",
+      "id": "lcn_W2_M",
+      "local_members": null,
+      "metadata": null,
+      "package_id": "galileo_falling_bodies",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    },
+    {
+      "content": "E_theta与S_plane的合取成立",
+      "id": "lcn_W3_M",
+      "local_members": null,
+      "metadata": null,
+      "package_id": "galileo_falling_bodies",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    },
+    {
+      "content": "A与S_vac的合取成立",
+      "id": "lcn_AV_M",
+      "local_members": null,
+      "metadata": null,
+      "package_id": "galileo_falling_bodies",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    },
+    {
+      "content": "T1与T2之间存在矛盾关系",
+      "id": "lcn_R_T1_T2",
+      "local_members": null,
+      "metadata": null,
+      "package_id": "galileo_falling_bodies",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    },
+    {
+      "content": "A_vac与V之间存在矛盾关系",
+      "id": "lcn_R_Avac_V",
+      "local_members": null,
+      "metadata": null,
+      "package_id": "galileo_falling_bodies",
+      "parameters": [],
+      "provenance": null,
+      "representative_lcn": null,
+      "type": "claim"
+    }
+  ],
+  "operators": [
+    {
+      "conclusion": "lcn_T1",
+      "metadata": null,
+      "operator": "implication",
+      "operator_id": "lco_A_to_T1",
+      "scope": "local",
+      "variables": [
+        "lcn_A",
+        "lcn_T1"
+      ]
+    },
+    {
+      "conclusion": "lcn_T2",
+      "metadata": null,
+      "operator": "implication",
+      "operator_id": "lco_A_to_T2",
+      "scope": "local",
+      "variables": [
+        "lcn_A",
+        "lcn_T2"
+      ]
+    },
+    {
+      "conclusion": null,
+      "metadata": null,
+      "operator": "contradiction",
+      "operator_id": "lco_T1_contra_T2",
+      "scope": "local",
+      "variables": [
+        "lcn_T1",
+        "lcn_T2"
+      ]
+    },
+    {
+      "conclusion": "lcn_AV_M",
+      "metadata": null,
+      "operator": "conjunction",
+      "operator_id": "lco_A_and_Svac",
+      "scope": "local",
+      "variables": [
+        "lcn_A",
+        "lcn_S_vac",
+        "lcn_AV_M"
+      ]
+    },
+    {
+      "conclusion": "lcn_A_vac",
+      "metadata": null,
+      "operator": "implication",
+      "operator_id": "lco_AVM_to_Avac",
+      "scope": "local",
+      "variables": [
+        "lcn_AV_M",
+        "lcn_A_vac"
+      ]
+    },
+    {
+      "conclusion": null,
+      "metadata": null,
+      "operator": "contradiction",
+      "operator_id": "lco_Avac_contra_V",
+      "scope": "local",
+      "variables": [
+        "lcn_A_vac",
+        "lcn_V"
+      ]
+    },
+    {
+      "conclusion": "lcn_W2_M",
+      "metadata": null,
+      "operator": "conjunction",
+      "operator_id": "lco_W2_conj",
+      "scope": "local",
+      "variables": [
+        "lcn_O_media",
+        "lcn_O_air",
+        "lcn_S_vac",
+        "lcn_W2_M"
+      ]
+    },
+    {
+      "conclusion": "lcn_W3_M",
+      "metadata": null,
+      "operator": "conjunction",
+      "operator_id": "lco_W3_conj",
+      "scope": "local",
+      "variables": [
+        "lcn_E_theta",
+        "lcn_S_plane",
+        "lcn_W3_M"
+      ]
+    }
+  ],
+  "scope": "local",
+  "strategies": [
+    {
+      "background": null,
+      "conclusion": "lcn_A",
+      "metadata": null,
+      "premises": [
+        "lcn_O_daily"
+      ],
+      "scope": "local",
+      "steps": null,
+      "strategy_id": "lcs_W1",
+      "type": "noisy_and"
+    },
+    {
+      "background": null,
+      "conclusion": "lcn_V",
+      "metadata": null,
+      "premises": [
+        "lcn_W2_M"
+      ],
+      "scope": "local",
+      "steps": null,
+      "strategy_id": "lcs_W2_soft",
+      "type": "noisy_and"
+    },
+    {
+      "background": null,
+      "conclusion": "lcn_V",
+      "metadata": null,
+      "premises": [
+        "lcn_W3_M"
+      ],
+      "scope": "local",
+      "steps": null,
+      "strategy_id": "lcs_W3_soft",
+      "type": "noisy_and"
+    }
+  ]
+}
